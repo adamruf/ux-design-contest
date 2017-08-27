@@ -144,7 +144,8 @@ a {
     text-transform: uppercase; }
 
 .intro-animation {
-  margin-top: -12rem; }
+  margin-top: -12rem;
+  min-width: calc(100% - 20vw); }
 
 .wrapper {
   background: white;
