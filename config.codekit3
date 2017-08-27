@@ -110,6 +110,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/favicon.png": {
+		"ft": 32768,
+		"iS": 1008,
+		"oA": 0,
+		"oAP": "\/img\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/footer-twitch-plug@2x.png": {
 		"ft": 32768,
 		"iS": 16276,
