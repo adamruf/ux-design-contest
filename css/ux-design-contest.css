@@ -22,9 +22,6 @@
 .max-w-876 {
   max-width: 876px; }
 
-.max-w-1202 {
-  max-width: 1202px; }
-
 img {
   width: 77%; }
 
@@ -145,7 +142,8 @@ a {
 
 .intro-animation {
   margin-top: -12rem;
-  min-width: calc(100% - 20vw); }
+  max-width: 95%;
+  width: 900px; }
 
 .wrapper {
   background: white;
