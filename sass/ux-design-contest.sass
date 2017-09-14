@@ -44,7 +44,7 @@ body
   background-size: 1280px
   color: $black
   @include base-font
-  font-size: 3rem
+  font-size: 2.5rem
   line-height: 1.55
 
 h2
@@ -53,6 +53,10 @@ h2
 
 h3
   font-size: 4rem
+  font-weight: bold
+
+h4
+  font-size: 3.3rem
   font-weight: bold
 
 a
@@ -64,6 +68,7 @@ a
     border-bottom: 0.1rem solid $link-blue
     color: $link-blue
     text-decoration: none
+    transition: all 0.2s ease-in-out
 
 ::selection
   background: $yellow
@@ -112,6 +117,9 @@ a
     box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.15)
     transform: translateY(0.4rem)
     transition: all 0.3s ease
+
+.mg-b-0
+  margin-bottom: 0
 
 .mg-b-50
   margin-bottom: 5rem
