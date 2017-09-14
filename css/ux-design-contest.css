@@ -172,7 +172,8 @@ a {
   margin-right: 3.5rem; }
 
 .wrapper--full {
-  margin: 0 5rem; }
+  margin-left: 5rem;
+  margin-right: 5rem; }
 
 @keyframes float {
   0% {
@@ -207,7 +208,7 @@ a {
 
 .wrapper-right-trophy {
   top: 7rem;
-  left: 14rem; }
+  left: -9rem; }
 
 .wrapper-left-triangle {
   top: 10rem;
@@ -259,6 +260,8 @@ a {
     min-width: 330px; }
   .mg-b-75 {
     margin-bottom: 1rem; }
+  .mg-b-100 {
+    margin-bottom: 3rem; }
   .mg-b-150 {
     margin-bottom: 7rem; }
   .mg-b-250 {
@@ -279,7 +282,7 @@ a {
     right: -6.5rem; }
   .wrapper-right-trophy {
     top: 4rem;
-    left: 2rem; }
+    left: -7rem; }
   ol {
     margin-left: -1rem; }
   h3 {
