@@ -303,8 +303,11 @@ a {
     right: -8rem; }
   .wrapper-left-square {
     right: -6.5rem; }
+  .wrapper-left-trophy {
+    top: 8rem;
+    right: -7rem; }
   .wrapper-right-trophy {
-    top: 4rem;
+    top: 8rem;
     left: -7rem; }
   ol {
     margin-left: -1rem; }
