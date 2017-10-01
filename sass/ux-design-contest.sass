@@ -75,6 +75,13 @@ a
     text-decoration: none
     transition: all 0.2s ease-in-out
 
+.heading-link
+  color: inherit
+  &:hover,
+  &:active,
+  &:focus
+    color: $link-blue
+
 ::selection
   background: $yellow
 
@@ -164,6 +171,9 @@ a
   font-size: 1.4rem
   margin: 0
 
+.subtle
+  opacity: 0.5
+
 .title
   @include slab-font
   font-size: 11rem
@@ -230,6 +240,10 @@ a
 .wrapper-right-circle-small
   top: 3rem
   left: -8rem
+
+.wrapper-left-trophy
+  top: 10rem
+  right: -9rem
 
 .wrapper-right-trophy
   top: 7rem

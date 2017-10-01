@@ -66,6 +66,11 @@ a {
     text-decoration: none;
     transition: all 0.2s ease-in-out; }
 
+.heading-link {
+  color: inherit; }
+  .heading-link:hover, .heading-link:active, .heading-link:focus {
+    color: #00A8FF; }
+
 ::selection {
   background: #FFFD7F; }
 
@@ -149,6 +154,9 @@ a {
   font-size: 1.4rem;
   margin: 0; }
 
+.subtle {
+  opacity: 0.5; }
+
 .title {
   font-family: "Roboto Slab";
   font-size: 11rem;
@@ -216,6 +224,10 @@ a {
 .wrapper-right-circle-small {
   top: 3rem;
   left: -8rem; }
+
+.wrapper-left-trophy {
+  top: 10rem;
+  right: -9rem; }
 
 .wrapper-right-trophy {
   top: 7rem;
