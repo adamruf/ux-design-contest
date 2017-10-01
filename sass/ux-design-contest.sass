@@ -21,8 +21,13 @@ $link-blue:      #00A8FF
 @mixin max-width($size)
   .max-w-#{$size}
     max-width: $size * 1px
+@mixin mg-r-($size)
+  .mg-r-#{$size}
+    margin-right: $size * 1rem
 
 $mobile: (max-width: 666px)
+
+@include mg-r-(1)
 
 @include max-width(75)
 @include max-width(100)
@@ -311,3 +316,23 @@ a
 
 // Mailchimp Form Overrides
 // Inlined to escape specificity
+
+// Countdown Clock Styles
+#clockdiv
+  @include slab-font
+  display: inline-block
+  text-align: center
+  font-size: calc(2rem + 3vw)
+
+#clockdiv > div
+  // padding: 10px
+  display: inline-block
+
+#clockdiv div > span
+  display: inline-block
+
+.smalltext
+  font-size: 2rem
+
+.w-15
+  width: 15rem

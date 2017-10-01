@@ -52,7 +52,29 @@
   </section>
 
   <section id="current-contest" class="container-fluid mg-b-250">
-    <h2 class="text-center mg-b-50">Current Contest (#2)</h2>
+    <h2 class="text-center">Design Contest #2 entries due in</h2>
+    <div class="row">
+      <div class="col-md-12 mg-b-50 text-center">
+        <div id="clockdiv">
+          <!-- <div class="w-15 mg-r-1">
+            <span class="days"></span>d
+            <div class="smalltext">Days</div>
+          </div> -->
+          <div class="w-15 mg-r-1">
+            <span class="hours"></span>h
+            <!-- <div class="smalltext">Hours</div> -->
+          </div>
+          <div class="w-15 mg-r-1">
+            <span class="minutes"></span>m
+            <!-- <div class="smalltext">Minutes</div> -->
+          </div>
+          <div class="w-15 mg-r-1">
+            <span class="seconds"></span>s
+            <!-- <div class="smalltext">Seconds</div> -->
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-12 mg-b-50">
         <div class="wrapper wrapper--full">
@@ -331,5 +353,52 @@
   <!-- <a class="img-link" href="https://www.twitch.tv/ux_adam" target="_blank">
     <img class="footer-twitch-sell max-w-640" src="//uxdesigncontest.com/img/footer-twitch-plug@2x.png" alt="An illustrated characters says, 'For even more live design fun, check out ux_adam’s Twitch Channel'">
   </a> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+  <script>
+  $('document').ready(function(){
+    function getTimeRemaining(endtime) {
+      var t = Date.parse(endtime) - Date.parse(new Date());
+      var seconds = Math.floor((t / 1000) % 60);
+      var minutes = Math.floor((t / 1000 / 60) % 60);
+      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      // var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      return {
+        'total': t,
+        // 'days': days,
+        'hours': hours,
+        'minutes': minutes,
+        'seconds': seconds
+      };
+    }
+
+    function initializeClock(id, endtime) {
+      var clock = document.getElementById(id);
+      // var daysSpan = clock.querySelector('.days');
+      var hoursSpan = clock.querySelector('.hours');
+      var minutesSpan = clock.querySelector('.minutes');
+      var secondsSpan = clock.querySelector('.seconds');
+
+      function updateClock() {
+        var t = getTimeRemaining(endtime);
+
+        // daysSpan.innerHTML = t.days;
+        hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+        minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+        secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+        if (t.total <= 0) {
+          clearInterval(timeinterval);
+        }
+      }
+
+      updateClock();
+      var timeinterval = setInterval(updateClock, 1000);
+      }
+
+      // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+      var deadline = 'October 1 2017 23:59:59 GMT-0200';
+      initializeClock('clockdiv', deadline);
+    });
+  </script>
 </body>
 </html>
