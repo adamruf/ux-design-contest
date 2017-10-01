@@ -302,8 +302,10 @@ a {
 #clockdiv {
   font-family: "Roboto Slab";
   background-color: #FFFD7F;
+  border-radius: 1rem;
   display: inline-block;
   font-size: calc(2rem + 3vw);
+  padding: 0 1rem 0 2rem;
   text-align: center; }
 
 #clockdiv > div {
