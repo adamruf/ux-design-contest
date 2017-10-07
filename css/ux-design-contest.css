@@ -51,7 +51,8 @@ h2 {
 
 h3 {
   font-size: 4rem;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 0; }
 
 h4 {
   font-size: 3.3rem;
@@ -171,6 +172,11 @@ a {
     font-size: 19rem;
     text-transform: uppercase; }
 
+.title-alt-1 {
+  color: rgba(49, 47, 55, 0.4);
+  font-size: 3rem;
+  text-transform: uppercase; }
+
 .intro-animation {
   margin-top: -11rem;
   max-width: 95%;
@@ -252,6 +258,9 @@ a {
     margin: -2rem; }
     .title span {
       font-size: 10rem; }
+  .title-alt-1 {
+    font-size: 2rem;
+    line-height: 1.5; }
   .button {
     font-size: 2rem;
     padding: 1rem; }
