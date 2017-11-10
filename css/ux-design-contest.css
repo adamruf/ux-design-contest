@@ -346,3 +346,9 @@ a {
 
 .w-15 {
   width: 15rem; }
+
+.img--testimonial {
+  border-radius: 4rem;
+  display: block;
+  margin-top: 1rem;
+  width: 8rem; }
