@@ -39,6 +39,7 @@ $mobile: (max-width: 666px)
 @include max-width(212)
 @include max-width(289)
 @include max-width(640)
+@include max-width(700)
 @include max-width(876)
 
 img
@@ -136,6 +137,9 @@ a
 
 .mg-b-0
   margin-bottom: 0
+
+.mg-b-25
+  margin-bottom: 2.5rem
 
 .mg-b-50
   margin-bottom: 5rem
@@ -352,7 +356,7 @@ a
   background-color: $yellow
   border-radius: 1rem
   display: inline-block
-  font-size: calc(2rem + 3vw)
+  font-size: calc(1rem + 3vw)
   padding: 0 1rem 0 2rem
   text-align: center
 
@@ -366,7 +370,7 @@ a
   font-size: 2rem
 
 .w-15
-  width: 15rem
+  max-width: 15rem
 
 .img--testimonial
   border-radius: 4rem
