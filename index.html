@@ -338,7 +338,7 @@
   </section>
 
   <section id="winner-showcase" class="container-fluid mg-b-75">
-    <h2 class="text-center mg-b-50">Winner Showcase</h2>
+    <h2 class="text-center mg-b-50">🚀 Winner Showcase</h2>
     <div class="row mg-b-50">
       <div class="col-md-12">
         <div class="wrapper wrapper--right pos-relative mg-b-50 text-center">
@@ -401,7 +401,7 @@
     </div>
   </section>
 
-  <section id="notification-sign-up-bottom" class="container-fluid mg-b-150">
+  <section id="notification-sign-up-bottom" class="container-fluid mg-b-75">
     <div class="row">
       <div class="col-md-12">
         <!-- Begin MailChimp Signup Form -->
@@ -424,15 +424,13 @@
     </div>
   </section>
 
-  <!-- <section id="feedback">
+  <section id="feedback">
     <div class="row">
-      <div class="col-md-12 mg-b-50">
-        <div class="wrapper wrapper--full">
-          <iframe class="airtable-embed" src="https://airtable.com/embed/shrF82m3k9qqvNJWL?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent;"></iframe>
-        </div>
+      <div class="col-md-4 col-md-offset-4 mg-b-50 text-center">
+        <a class="button" href="https://adamruf.typeform.com/to/ZGZC6W" target="_blank">🙏 Give Feedback</a>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <footer class="container-fluid mg-b-50">
     <div class="row">
@@ -453,56 +451,6 @@
   </a> -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })
-  </script>
-  <script>
-  $('document').ready(function(){
-    function getTimeRemaining(endtime) {
-      var t = Date.parse(endtime) - Date.parse(new Date());
-      var seconds = Math.floor((t / 1000) % 60);
-      var minutes = Math.floor((t / 1000 / 60) % 60);
-      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-      var days = Math.floor(t / (1000 * 60 * 60 * 24));
-      return {
-        'total': t,
-        'days': days,
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds
-      };
-    }
-
-    function initializeClock(id, endtime) {
-      var clock = document.getElementById(id);
-      var daysSpan = clock.querySelector('.days');
-      var hoursSpan = clock.querySelector('.hours');
-      var minutesSpan = clock.querySelector('.minutes');
-      var secondsSpan = clock.querySelector('.seconds');
-
-      function updateClock() {
-        var t = getTimeRemaining(endtime);
-
-        daysSpan.innerHTML = t.days;
-        hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-        minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-        secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-        if (t.total <= 0) {
-          clearInterval(timeinterval);
-        }
-      }
-
-      updateClock();
-      var timeinterval = setInterval(updateClock, 1000);
-      }
-
-      // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-      var deadline = 'December 1 2017 23:59:59 GMT-0800';
-      initializeClock('clockdiv', deadline);
-    });
-  </script>
+  <script src="js/min/scripts-min.js"></script>
 </body>
 </html>
