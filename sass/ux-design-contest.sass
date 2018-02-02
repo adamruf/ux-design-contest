@@ -135,6 +135,14 @@ a
     transform: translateY(0.4rem)
     transition: all 0.3s ease
 
+.button--black
+  animation: none
+  background-color: $black
+  &:hover,
+  &:active,
+  &:focus
+    background-color: lighten($black,10%)
+
 .mg-b-0
   margin-bottom: 0
 
@@ -348,7 +356,9 @@ a
     font-size: 2.5rem
 
 // Mailchimp Form Overrides
-// Inlined to escape specificity
+// Most inlined to escape specificity
+#mc_embed_signup .button:hover
+  background-color: $black !important
 
 // Countdown Clock Styles
 #clockdiv

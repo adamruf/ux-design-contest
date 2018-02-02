@@ -120,6 +120,12 @@ a {
     transform: translateY(0.4rem);
     transition: all 0.3s ease; }
 
+.button--black {
+  animation: none;
+  background-color: #312F37; }
+  .button--black:hover, .button--black:active, .button--black:focus {
+    background-color: #4a4753; }
+
 .mg-b-0 {
   margin-bottom: 0; }
 
@@ -331,6 +337,9 @@ a {
     margin-left: -1rem; }
   h3 {
     font-size: 2.5rem; } }
+
+#mc_embed_signup .button:hover {
+  background-color: #312F37 !important; }
 
 #clockdiv {
   font-family: "Roboto Slab";
