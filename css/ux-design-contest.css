@@ -78,6 +78,9 @@ a {
   .heading-link:hover, .heading-link:active, .heading-link:focus {
     color: #00A8FF; }
 
+.link--underlined {
+  border-bottom: 0.1rem solid rgba(49, 47, 55, 0.2); }
+
 ::selection {
   background: #FFFD7F; }
 
