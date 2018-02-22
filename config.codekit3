@@ -307,6 +307,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/staging": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/staging",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -2298,7 +2304,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/staging",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
