@@ -7,7 +7,7 @@
 		"uuidString": "17F815DA-4D68-47BA-A1E4-526BD7A6401E"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -250,6 +250,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/uxd-contest-twitter-banner-pic.png": {
+		"ft": 32768,
+		"iS": 48289,
+		"oA": 0,
+		"oAP": "\/img\/uxd-contest-twitter-banner-pic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/uxd-contest-twitter-banner-pic@2x.png": {
+		"ft": 32768,
+		"iS": 114587,
+		"oA": 0,
+		"oAP": "\/img\/uxd-contest-twitter-banner-pic@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/uxd-contest-twitter-profile-pic.png": {
+		"ft": 32768,
+		"iS": 10069,
+		"oA": 0,
+		"oAP": "\/img\/uxd-contest-twitter-profile-pic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -323,7 +356,8 @@
 	"creationDate": 524001311,
 	"displayValue": "ux-design-contest",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-wonka"
+	"iconImageName": "meme-wonka",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2126,6 +2160,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
