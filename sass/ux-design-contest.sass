@@ -70,15 +70,16 @@ li
   margin-bottom: 2rem
 
 a
+  border-bottom: 0.1rem solid transparent
   color: $link-blue
   &:hover,
   &:active,
   &:focus
     background: transparentize($link-blue,0.9)
-    border-bottom: 0.1rem solid $link-blue
+    // border-bottom: 0.1rem solid $link-blue
     color: $link-blue
     text-decoration: none
-    transition: all 0.2s ease-in-out
+    transition: all 0.1s ease-in-out
 
 .heading-link
   color: inherit
@@ -231,6 +232,7 @@ a
   border: 0.1rem solid $lighter-gray
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.05)
   padding: 5rem
+  text-align: left
 
 .wrapper--left
   margin-left: 3.5rem
