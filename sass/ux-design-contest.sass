@@ -25,7 +25,8 @@ $link-blue:      #00A8FF
   .mg-r-#{$size}
     margin-right: $size * 1rem
 
-$mobile: (max-width: 666px)
+// $mobile: (max-width: 666px)
+$mobile: (max-width: 1097px)
 
 @include mg-r-(1)
 
@@ -56,6 +57,10 @@ body
 h2
   @include slab-font
   font-size: calc(2rem + 3vw)
+
+h2.current-contest
+  @include base-font
+  font-weight: bold
 
 h3
   font-size: 4rem
@@ -120,22 +125,22 @@ a
     background-color: #FF7F9E
 
 .button
-  animation: color-wave 8s ease infinite
-  border: none
+  background-color: $blue
+  // border: 2px solid $black
   border-radius: 6rem
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.05)
-  color: white
+  color: $black
   display: block
   font-size: 2rem
   font-weight: bold
   padding: 1.5rem
-  text-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.1)
+  // text-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.1)
   &:hover,
   &:active,
   &:focus
     animation: none
     background-color: $black
-    border: none
+    // border: 2px solid $black
     color: white
   &:active,
     box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.15)
@@ -144,47 +149,48 @@ a
 
 .button--black
   animation: none
-  background-color: $black
+  background-color: #666
+  color: $white
   &:hover,
   &:active,
   &:focus
-    background-color: lighten($black,10%)
+    background-color: $black
 
 .mg-b-0
-  margin-bottom: 0
+  margin-bottom: 0 !important
 
 .mg-b-05
-  margin-bottom: 0.5rem
+  margin-bottom: 0.5rem !important
 
 .mg-b-10
-  margin-bottom: 1rem
+  margin-bottom: 1rem !important
 
 .mg-b-25
-  margin-bottom: 2.5rem
+  margin-bottom: 2.5rem !important
 
 .mg-b-50
-  margin-bottom: 5rem
+  margin-bottom: 5rem !important
 
 .mg-b-75
-  margin-bottom: 7.5rem
+  margin-bottom: 7.5rem !important
 
 .mg-b-100
-  margin-bottom: 10rem
+  margin-bottom: 10rem !important
 
 .mg-b-150
-  margin-bottom: 15rem
+  margin-bottom: 15rem !important
 
 .mg-b-200
-  margin-bottom: 20rem
+  margin-bottom: 20rem !important
 
 .mg-b-250
-  margin-bottom: 25rem
+  margin-bottom: 25rem !important
 
 .mg-b-300
-  margin-bottom: 30rem
+  margin-bottom: 30rem !important
 
 .mg-b-400
-  margin-bottom: 40rem
+  margin-bottom: 40rem !important
 
 .pos-absolute
   position: absolute
@@ -231,18 +237,20 @@ a
   background: white
   border: 0.1rem solid $lighter-gray
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.05)
+  margin: 0 auto
+  max-width: 800px
   padding: 5rem
   text-align: left
 
-.wrapper--left
+// .wrapper--left
   margin-left: 3.5rem
   margin-right: 21rem
 
-.wrapper--right
+// .wrapper--right
   margin-left: 21rem
   margin-right: 3.5rem
 
-.wrapper--full
+// .wrapper--full
   margin-left: 5rem
   margin-right: 5rem
 
@@ -296,12 +304,13 @@ a
 // Media Queries for Mobile UX
 @media #{$mobile}
   .ux-trophy-banner
-    min-width: 100%
+    margin-bottom: -2rem
+    min-width: 50%
   .title
-    font-size: 15vw
-    margin: -2rem
+    font-size: 7rem
+    margin: 0 0 1vw
     span
-      font-size: 10rem
+      font-size: 12rem
   .title-alt-1
     font-size: 2rem
     line-height: 1.5
@@ -311,7 +320,7 @@ a
   .small
     font-size: 1.6rem
   .wrapper
-    font-size: 1.8rem
+    font-size: 2rem
     padding: 2rem
   .wrapper--right
     margin-left: 7rem
@@ -319,7 +328,7 @@ a
   .wrapper--left
     margin-left: 1rem
     margin-right: 7rem
-  .wrapper--full
+  // .wrapper--full
     margin: 0 1rem
   .max-w-212
     max-width: 106px
@@ -338,15 +347,15 @@ a
   .max-w-640
     min-width: 330px
   .mg-b-75
-    margin-bottom: 1rem
+    margin-bottom: 1rem !important
   .mg-b-100
-    margin-bottom: 3rem
+    margin-bottom: 3rem !important
   .mg-b-150
-    margin-bottom: 7rem
+    margin-bottom: 7rem !important
   .mg-b-250
-    margin-bottom: 10rem
+    margin-bottom: 10rem !important
   .mg-b-400
-    margin-bottom: 15rem
+    margin-bottom: 15rem !important
   .shapes-group-1
     left: 0
   .shapes-group-2
@@ -367,22 +376,27 @@ a
     left: -7rem
   ol
     margin-left: -1rem
+  h2
+    font-size: 4rem
   h3
-    font-size: 2.5rem
+    font-size: 3rem
 
 // Mailchimp Form Overrides
 // Most inlined to escape specificity
-#mc_embed_signup .button:hover
-  background-color: $black !important
+#mc_embed_signup .button
+  background-color: #666
+  &:hover
+    background-color: $black !important
 
 // Countdown Clock Styles
 #clockdiv
-  @include slab-font
-  background-color: $yellow
-  border-radius: 1rem
+  // @include slab-font
+  // background-color: $yellow
+  border-radius: 6rem
   display: inline-block
-  font-size: calc(1rem + 3vw)
-  padding: 0 1rem 0 2rem
+  // font-size: calc(2rem + 1vw)
+  font-weight: bold
+  // padding: 0 1.5rem
   text-align: center
 
 #clockdiv > div
@@ -403,3 +417,6 @@ a
   display: block
   margin-top: 1rem
   width: 8rem
+
+
+// 1097px horizontal scroll comes into play

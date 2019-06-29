@@ -45,6 +45,6 @@ $('document').ready(function(){
     }
 
     // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-    var deadline = 'April 14 2019 23:59:59 GMT-0800';
+    var deadline = 'July 21 2019 23:59:59 GMT-0800';
     initializeClock('clockdiv', deadline);
   });
