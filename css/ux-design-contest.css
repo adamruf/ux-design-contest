@@ -50,14 +50,14 @@ body {
 
 h2 {
   font-family: "Roboto Slab";
-  font-size: calc(2rem + 3vw); }
+  font-size: 4.5rem; }
 
 h2.current-contest {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
   font-weight: bold; }
 
 h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-top: 0; }
 
