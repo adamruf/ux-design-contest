@@ -48,13 +48,22 @@ body {
   font-size: 2.5rem;
   line-height: 1.55; }
 
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 2.5rem; }
+
 h2 {
   font-family: "Roboto Slab";
-  font-size: 4.5rem; }
+  font-size: 4.5rem;
+  margin-bottom: 2.5rem; }
 
-h2.current-contest {
+.current-contest {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+  font-size: 4.5rem;
   font-weight: bold; }
+
+h3, h4 {
+  margin-bottom: 1.5rem; }
 
 h3 {
   font-size: 3rem;
@@ -65,8 +74,14 @@ h4 {
   font-size: 3.3rem;
   font-weight: bold; }
 
+p {
+  margin-bottom: 1.5rem; }
+
+ul, ol {
+  margin-bottom: 0; }
+
 li {
-  margin-bottom: 2rem; }
+  margin-bottom: 1.5rem; }
 
 a {
   border-bottom: 0.1rem solid transparent;
@@ -199,9 +214,11 @@ a {
     text-transform: uppercase; }
 
 .title-alt-1 {
-  color: rgba(49, 47, 55, 0.4);
+  color: #77767b;
   display: block;
   font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2.5rem;
   text-transform: uppercase; }
 
 .intro-animation {
@@ -210,7 +227,7 @@ a {
   width: 900px; }
 
 ::placeholder {
-  color: rgba(49, 47, 55, 0.4); }
+  color: #77767b; }
 
 .wrapper {
   background: white;
@@ -220,6 +237,29 @@ a {
   max-width: 800px;
   padding: 5rem;
   text-align: left; }
+  .wrapper p:last-child,
+  .wrapper li:last-child {
+    margin-bottom: 0; }
+
+.wrapper--sm {
+  font-size: 1.6rem;
+  min-width: 255px !important;
+  padding: 2.5rem; }
+
+.static-trophy-banner {
+  position: absolute;
+  top: -67px;
+  left: 74px; }
+
+.affix {
+  min-width: 255px;
+  top: 16px; }
+
+.img--avatar {
+  display: inline-block;
+  height: 50px;
+  margin-right: 15px;
+  width: 50px; }
 
 @keyframes float {
   0% {
@@ -268,7 +308,27 @@ a {
   line-height: 1.3;
   margin: 0; }
 
-@media (max-width: 1097px) {
+tr {
+  border-bottom: 1px solid rgba(49, 47, 55, 0.2); }
+
+th, td {
+  padding: 1.5rem; }
+
+.wrapper tr:last-child {
+  border: none; }
+
+td {
+  height: 50px;
+  vertical-align: middle; }
+
+.hidden-md-down {
+  display: block; }
+
+@media (max-width: 991px) {
+  .hidden-md-down {
+    display: none; } }
+
+@media (max-width: 666px) {
   .ux-trophy-banner {
     margin-bottom: -2rem;
     min-width: 50%; }
@@ -310,10 +370,11 @@ a {
     max-width: 101px; }
   .max-w-640 {
     min-width: 330px; }
+  .mg-b-50,
   .mg-b-75 {
     margin-bottom: 1rem !important; }
   .mg-b-100 {
-    margin-bottom: 3rem !important; }
+    margin-bottom: 6rem !important; }
   .mg-b-150 {
     margin-bottom: 7rem !important; }
   .mg-b-250 {

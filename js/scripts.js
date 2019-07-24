@@ -45,6 +45,23 @@ $('document').ready(function(){
     }
 
     // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-    var deadline = 'July 21 2019 23:59:59 GMT-0800';
+    var deadline = 'August 14 2019 23:59:59 GMT-0800';
     initializeClock('clockdiv', deadline);
   });
+
+  // Dynamically set the appropriate value for Bootstrap affix element
+  // $(function () {
+  //   var $attribute = $('[data-smart-affix]');
+  //   $attribute.each(function () {
+  //     $(this).affix({
+  //       offset: {
+  //         top: $(this).offset().top,
+  //       }
+  //     })
+  //   })
+  //   $(window).on("resize", function () {
+  //     $attribute.each(function () {
+  //       $(this).data('bs.affix').options.offset.top = $(this).offset().top
+  //     })
+  //   })
+  // });
