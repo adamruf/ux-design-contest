@@ -45,7 +45,7 @@ body {
   background-size: 1280px;
   color: #312F37;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.55; }
 
 h1, h2 {
@@ -54,12 +54,11 @@ h1, h2 {
 
 h2 {
   font-family: "Roboto Slab";
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin-bottom: 2.5rem; }
 
 .current-contest {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  font-size: 4.5rem;
   font-weight: bold; }
 
 h3, h4 {
@@ -192,7 +191,7 @@ a {
   position: relative; }
 
 .small {
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5; }
 
 .smaller {
@@ -216,9 +215,8 @@ a {
 .title-alt-1 {
   color: #77767b;
   display: block;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  margin-top: 2.5rem;
   text-transform: uppercase; }
 
 .intro-animation {
@@ -245,6 +243,10 @@ a {
   font-size: 1.6rem;
   min-width: 255px !important;
   padding: 2.5rem; }
+
+.ux-trophy-banner--full-width {
+  margin-top: -2rem;
+  width: 100%; }
 
 .static-trophy-banner {
   position: absolute;
@@ -329,25 +331,23 @@ td {
     display: none; } }
 
 @media (max-width: 666px) {
-  .ux-trophy-banner {
-    margin-bottom: -2rem;
-    min-width: 50%; }
+  body {
+    font-size: 1.6rem; }
   .title {
     font-size: 7rem;
     margin: 0 0 1vw; }
     .title span {
       font-size: 12rem; }
   .title-alt-1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     line-height: 1.5; }
   .button {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 1rem; }
   .small {
-    font-size: 1.6rem; }
+    font-size: 1.2rem; }
   .wrapper {
-    font-size: 2rem;
-    padding: 2rem; }
+    padding: 4rem; }
   .wrapper--right {
     margin-left: 7rem;
     margin-right: 1rem; }
@@ -372,7 +372,7 @@ td {
     min-width: 330px; }
   .mg-b-50,
   .mg-b-75 {
-    margin-bottom: 1rem !important; }
+    margin-bottom: 2rem !important; }
   .mg-b-100 {
     margin-bottom: 6rem !important; }
   .mg-b-150 {
@@ -401,10 +401,16 @@ td {
     left: -7rem; }
   ol {
     margin-left: -1rem; }
+  h1 {
+    font-size: 3rem; }
   h2 {
-    font-size: 4rem; }
+    font-size: 2.5rem; }
   h3 {
-    font-size: 3rem; } }
+    font-size: 2rem; }
+  th, td {
+    padding: 1rem; }
+  li {
+    margin-bottom: 1rem; } }
 
 #mc_embed_signup .button {
   background-color: #666; }
@@ -424,7 +430,7 @@ td {
   display: inline-block; }
 
 .smalltext {
-  font-size: 2rem; }
+  font-size: 1.6rem; }
 
 .w-15 {
   max-width: 20rem;
