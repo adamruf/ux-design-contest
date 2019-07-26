@@ -328,7 +328,9 @@ td {
 
 @media (max-width: 991px) {
   .hidden-md-down {
-    display: none; } }
+    display: none; }
+  .content-intro::before {
+    left: 85px !important; } }
 
 @media (max-width: 666px) {
   body {
@@ -354,6 +356,8 @@ td {
   .wrapper--left {
     margin-left: 1rem;
     margin-right: 7rem; }
+  .contest-intro::before {
+    display: none; }
   .max-w-212 {
     max-width: 106px; }
   .max-w-100 {
@@ -402,9 +406,9 @@ td {
   ol {
     margin-left: -1rem; }
   h1 {
-    font-size: 3rem; }
-  h2 {
     font-size: 2.5rem; }
+  h2 {
+    font-size: 2.25rem; }
   h3 {
     font-size: 2rem; }
   th, td {

@@ -1,14 +1,14 @@
 // COLOR VARIABLES
-$black:          #312F37
-$light-gray:     #77767b
-$lighter-gray:   transparentize($black,0.8)
-$white:          #FFF
-$off-white:      #FAFAFA
-$red:            #FF7F9E
-$yellow:         #FFFD7F
-$green:          #7FFFB9
-$blue:           #7FF6FF
-$link-blue:      #00A8FF
+$black: #312F37
+$light-gray: #77767b
+$lighter-gray: transparentize($black,0.8)
+$white: #FFF
+$off-white: #FAFAFA
+$red: #FF7F9E
+$yellow: #FFFD7F
+$green: #7FFFB9
+$blue:  #7FF6FF
+$link-blue:  #00A8FF
 
 // MIXINS
 @mixin base-font
@@ -271,6 +271,17 @@ a
   min-width: 255px !important
   padding: 2.5rem
 
+//.contest-intro::before
+  content: ''
+  display: block
+  background-image: url(https://uxdesigncontest.com/img/banner-ux-design-contest@2x.png)
+  background-size: 100% 100%
+  height: 133px
+  position: absolute
+  top: -59px
+  left: 105px
+  width: 426px
+
 .ux-trophy-banner--full-width
   margin-top: -2rem
   width: 100%
@@ -368,11 +379,15 @@ td
 // Hide sidebar navigation on narrower viewports
 .hidden-md-down
   display: block
+
+// Media Queries for Mobile UX
 @media #{$tablet}
   .hidden-md-down
     display: none
+  .content-intro::before
+    left: 85px !important
 
-// Media Queries for Mobile UX
+
 @media #{$mobile}
   body
     font-size: 1.6rem
@@ -400,6 +415,8 @@ td
     margin-right: 7rem
   // .wrapper--full
     margin: 0 1rem
+  .contest-intro::before
+    display: none
   .max-w-212
     max-width: 106px
   .max-w-100
@@ -448,9 +465,9 @@ td
   ol
     margin-left: -1rem
   h1
-    font-size: 3rem
-  h2
     font-size: 2.5rem
+  h2
+    font-size: 2.25rem
   h3
     font-size: 2rem
   th, td
