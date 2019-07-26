@@ -329,6 +329,25 @@ td {
 .hidden-md-down {
   display: block; }
 
+.contest-alert {
+  background: #FFF;
+  border: 0.1rem solid rgba(49, 47, 55, 0.2);
+  box-shadow: inset 1rem 0 0 #7FF6FF, inset 2rem 0 0 #FFFD7F, inset 3rem 0 0 #FF7F9E, 0 1rem 0 rgba(49, 47, 55, 0.05);
+  font-size: 1.6rem;
+  padding: 2rem;
+  padding-left: 2rem;
+  text-align: center; }
+
+.section-heading::before {
+  background: black;
+  border-radius: 0.1em;
+  content: " ";
+  width: 100%;
+  height: 1.2em;
+  left: 0;
+  position: absolute;
+  transform: skewY(-5deg) rotate(5deg); }
+
 .donger {
   color: rgba(49, 47, 55, 0.2);
   font-size: 4rem;
