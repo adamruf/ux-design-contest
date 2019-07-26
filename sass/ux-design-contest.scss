@@ -476,6 +476,12 @@ td {
   display: block;
 }
 
+.donger {
+  color: $lighter-gray;
+  font-size: 4rem;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .hidden-md-down {
     display: none;

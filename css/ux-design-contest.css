@@ -329,6 +329,11 @@ td {
 .hidden-md-down {
   display: block; }
 
+.donger {
+  color: rgba(49, 47, 55, 0.2);
+  font-size: 4rem;
+  text-align: center; }
+
 @media (max-width: 991px) {
   .hidden-md-down {
     display: none; }
