@@ -354,12 +354,25 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/sass/ux-design-contest.sass": {
+	"/sass/ux-design-contest--OLD.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/ux-design-contest--OLD.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/sass/ux-design-contest.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/ux-design-contest.css",
