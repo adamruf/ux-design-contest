@@ -332,11 +332,14 @@ td {
 .contest-alert {
   background: #FFF;
   border: 0.1rem solid rgba(49, 47, 55, 0.2);
-  box-shadow: inset 1rem 0 0 #7FF6FF, inset 2rem 0 0 #FFFD7F, inset 3rem 0 0 #FF7F9E, 0 1rem 0 rgba(49, 47, 55, 0.05);
+  box-shadow: inset 0.5rem 0 0 #7FF6FF, inset 1rem 0 0 #FFFD7F, inset 1.5rem 0 0 #FF7F9E, 0 1rem 0 rgba(49, 47, 55, 0.05);
   font-size: 1.6rem;
   padding: 2rem;
   padding-left: 2rem;
   text-align: center; }
+
+.live-contest {
+  box-shadow: inset 0 0.5rem 0 #7FF6FF, inset 0 1rem 0 #FFFD7F, inset 0 1.5rem 0 #FF7F9E; }
 
 .section-heading::before {
   background: black;
@@ -362,11 +365,13 @@ td {
 @media (max-width: 666px) {
   body {
     font-size: 1.6rem; }
+  .ux-trophy-banner {
+    margin-bottom: 3rem;
+    animation: none; }
   .title {
-    font-size: 7rem;
-    margin: 0 0 1vw; }
+    font-size: 5rem; }
     .title span {
-      font-size: 12rem; }
+      font-size: 8rem; }
   .title-alt-1 {
     font-size: 1.2rem;
     line-height: 1.5; }
