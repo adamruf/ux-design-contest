@@ -79,7 +79,7 @@ $tablet: (max-width: 991px);
 }
 
 img {
-  width: 77%;
+  width: 100%;
 }
 
 body {
@@ -351,7 +351,7 @@ a {
   border: 0.1rem solid rgba(49, 47, 55, 0.2);
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.05);
   margin: 0 auto;
-  max-width: 800px;
+  // max-width: 800px;
   padding: 5rem;
   text-align: left;
 
@@ -601,9 +601,12 @@ td {
     min-width: 330px;
   }
 
-  .mg-b-50,
-  .mg-b-75 {
+  .mg-b-50 {
     margin-bottom: 2rem !important;
+  }
+
+  .mg-b-75 {
+    margin-bottom: 3rem !important;
   }
 
   .mg-b-100 {
@@ -627,7 +630,7 @@ td {
   }
 
   .shapes-group-2 {
-    bottom: -10rem;
+    bottom: -7rem;
   }
 
   .wrapper-right-circle-small {
