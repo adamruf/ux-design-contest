@@ -133,7 +133,7 @@ a {
   display: block;
   font-size: 2rem;
   font-weight: bold;
-  padding: 1.5rem; }
+  padding: 1rem; }
   .button:hover, .button:active, .button:focus {
     animation: none;
     background-color: #312F37;
