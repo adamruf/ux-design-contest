@@ -334,7 +334,7 @@ td {
   text-align: center; }
 
 .live-contest {
-  box-shadow: inset 0 0 0 1rem #7FF6FF; }
+  box-shadow: inset 0 0 0 1rem #7FF6FF, 0 1rem 0 rgba(49, 47, 55, 0.05); }
 
 .section-heading::before {
   background: black;
