@@ -98,8 +98,14 @@ a {
     text-decoration: none;
     transition: all 0.1s ease-in-out; }
 
+.loud-text {
+  font-family: "Teko";
+  font-size: 10rem;
+  text-transform: uppercase; }
+
 #testimonials strong {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  line-height: 1.25em; }
 
 .nav-item {
   width: 100%;
@@ -396,6 +402,8 @@ td {
 @media (max-width: 666px) {
   body {
     font-size: 1.6rem; }
+  .donger {
+    font-size: 3rem; }
   .ux-trophy-banner {
     margin-bottom: 3rem;
     animation: none; }
