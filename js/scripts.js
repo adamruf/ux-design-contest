@@ -7,16 +7,16 @@
 $('document').ready(function(){
   function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
-    var seconds = Math.floor((t / 1000) % 60);
-    var minutes = Math.floor((t / 1000 / 60) % 60);
-    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+    // var seconds = Math.floor((t / 1000) % 60);
+    // var minutes = Math.floor((t / 1000 / 60) % 60);
+    // var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
     var days = Math.floor(t / (1000 * 60 * 60 * 24));
     return {
       'total': t,
       'days': days,
-      'hours': hours,
-      'minutes': minutes,
-      'seconds': seconds
+      // 'hours': hours,
+      // 'minutes': minutes,
+      // 'seconds': seconds
     };
   }
 
@@ -31,9 +31,9 @@ $('document').ready(function(){
       var t = getTimeRemaining(endtime);
 
       daysSpan.innerHTML = t.days;
-      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+      // hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+      // minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+      // secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
       if (t.total <= 0) {
         clearInterval(timeinterval);
@@ -48,20 +48,3 @@ $('document').ready(function(){
     var deadline = 'August 18 2019 23:59:59 GMT-0800';
     initializeClock('clockdiv', deadline);
   });
-
-  // Dynamically set the appropriate value for Bootstrap affix element
-  // $(function () {
-  //   var $attribute = $('[data-smart-affix]');
-  //   $attribute.each(function () {
-  //     $(this).affix({
-  //       offset: {
-  //         top: $(this).offset().top,
-  //       }
-  //     })
-  //   })
-  //   $(window).on("resize", function () {
-  //     $attribute.each(function () {
-  //       $(this).data('bs.affix').options.offset.top = $(this).offset().top
-  //     })
-  //   })
-  // });

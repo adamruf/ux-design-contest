@@ -78,6 +78,10 @@ $tablet: (max-width: 991px);
   max-width: 876px;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 img {
   width: 100%;
 }
@@ -97,11 +101,10 @@ h1 {
 }
 
 h2 {
-  margin-top: 0;
   margin-bottom: 2.5rem;
   font-family: "Roboto Slab";
   font-size: 4rem;
-  margin-bottom: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 .current-contest {
@@ -150,6 +153,35 @@ a {
     text-decoration: none;
     transition: all 0.1s ease-in-out;
   }
+}
+
+#testimonials strong {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  border-radius: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  position: relative;
+  // width: fit-content;
+}
+
+.nav-link.active::before {
+  // box-shadow: inset 1rem 0 0 $blue;
+  content: '';
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  background-color: $blue;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 0 rgba(49, 47, 55, 0.05);
+  left: -3.5rem;
+  top: 0.75rem;
 }
 
 .heading-link {
@@ -316,14 +348,15 @@ a {
 
 .title {
   font-family: "Roboto Slab";
-  font-size: 11rem;
+  font-size: 10rem;
+  line-height: 1.125;
   margin-top: -5rem;
   text-align: center;
 
   span {
     font-family: "Teko";
     font-weight: 700;
-    font-size: 19rem;
+    font-size: 16rem;
     text-transform: uppercase;
   }
 }
@@ -337,9 +370,8 @@ a {
 }
 
 .intro-animation {
-  margin-top: -11rem;
-  max-width: 95%;
-  width: 900px;
+  margin: -11rem auto 0;
+  max-width: 900px;
 }
 
 ::placeholder {
@@ -363,7 +395,6 @@ a {
 
 .wrapper--sm {
   font-size: 1.6rem;
-  min-width: 255px !important;
   padding: 2.5rem;
 }
 
@@ -378,10 +409,10 @@ a {
   left: 74px;
 }
 
-.affix {
-  min-width: 255px;
-  top: 16px;
-}
+// .affix {
+//   // min-width: 255px;
+//   top: 16px;
+// }
 
 .img--avatar {
   display: inline-block;
@@ -515,6 +546,15 @@ td {
   }
 }
 
+@media (max-width: 767px) {
+  .title {
+    font-size: 7rem;
+    span {
+      font-size: 10rem;
+    }
+  }
+}
+
 @media (max-width: 666px) {
   body {
     font-size: 1.6rem;
@@ -533,7 +573,7 @@ td {
   }
 
   .title-alt-1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.5;
   }
 

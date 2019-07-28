@@ -21,8 +21,9 @@
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:300|Teko:700" rel="stylesheet"
     type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/ux-design-contest.css">
 
@@ -44,32 +45,32 @@
 </head>
 
 <body>
-  <section id="hero" class="container mg-b-75">
+  <section id="hero" class="container">
     <div class="col-md-12 text-center">
       <img class="ux-trophy-banner max-w-700 float"
         src="https://uxdesigncontest.com/img/banner-ux-design-contest@2x.png" alt="Glowing UX trophy">
       <h1 class="title">UX Design <br><span>Contest</span></h1>
-      <img class="intro-animation hidden-xs" src="https://uxdesigncontest.com/img/intro-animation-v2@2x.gif"
+      <img class="intro-animation intro-animation d-lg-block d-xl-block d-md-none d-sm-none d-none mg-b-75" src="https://uxdesigncontest.com/img/intro-animation-v2@2x.gif"
         alt="3 people looking at the UX Design Challenge logo and commenting. The first person says, 'I heard about this design contest ux_adam started...' Then the second person says, 'Seems legit...' Lastly, the third person says, 'You had me at the glowy UX trophy illustration.' ">
     </div>
   </section>
 
   <!-- Show when contest is live -->
   <section id="current-contest" class="container mg-b-50">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 text-center">
       <div class="wrapper wrapper--full live-contest">
         <h2 class="current-contest mg-b-25">
-          <span class="title-alt-1 mg-b-25">🎉🙌Contest #11 is on and ends August 18th 🎉🙌 </span>Run a survey-based user research study
+          <span class="title-alt-1 mg-b-25">🎉🙌Contest #11 ends August 18th 🎉🙌 </span>Design + run a survey-based user research study
         </h2>
         <ul class="list-unstyled">
           <li>⏳ Your entry is due in <span id="clockdiv"><span class="days"></span> days</span></li>
           <li class="">🏆 Will you be one of the next contest winners?</li>
         </ul>
         <div class="text-center" style="display: flex; flex-direction: row; justify-content: left;flex-wrap: wrap;">
-          <a class="button" style="display:inline-block; margin-right: 2rem; padding: 1rem 3rem;margin-top: 2rem;"
+          <a class="button button--black" style="display:inline-block; margin-right: 2rem; padding: 1rem 3rem;margin-top: 2rem;flex-grow: 1;"
             href="https://uxdesigncontest.com/contests/ux-design-contest-11-run-a-survey-based-user-research-study.html">Contest
             Details</a>
-          <a class="button" style="display:inline-block;padding: 1rem 3rem;margin-top: 2rem;"
+          <a class="button button--black" style="display:inline-block;padding: 1rem 3rem;margin-top: 2rem;flex-grow: 1;"
             href="https://adamruf.typeform.com/to/ECTic3" target="_blank">Submit Entry</a>
         </div>
         <p style="margin-top: 2rem;">
@@ -83,7 +84,7 @@
   <section>
     <!-- Begin MailChimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <div id="mc_embed_signup" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 mg-b-100">
+    <div id="mc_embed_signup" class="col-sm-10 offset-sm-1 col-xs-10 offset-xs-1 mg-b-100">
       <form action="//adamruf.us4.list-manage.com/subscribe/post?u=117b96789620e8b84b28d2139&amp;id=edf6526b13"
         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
         novalidate>
@@ -114,10 +115,10 @@
   </section>
 
   <section id="intro" class="container mg-b-150">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1">
       <h2 class="text-center">What's UX Design Contest?</h2>
       <div class="wrapper">
-        <p style="margin-bottom: 2rem">UX Design Contest is a fun way for designers to
+        <p>UX Design Contest is a fun way for designers to
           <ul>
             <li>show the world what they can do</li>
             <li>exercise UX, UI, and Product design skills</li>
@@ -126,13 +127,17 @@
             <li>win impactful prizes</li>
           </ul>
         </p>
+        <p class="small">
+          After reviewing hundreds of UX design portfolios, Product Designer + Design Mentor, Adam Ruf, created UX Design Contest to provide useful and structured projects for exercising full-stack design skills
+          and growing your design portfolio.
+        </p>
       </div>
       <!-- <img class="shapes-group-1 max-w-212 pos-absolute float" src="https://uxdesigncontest.com/img/shapes-group-1@2x.png" alt="A red square, blue circle, and green triangle"> -->
     </div>
   </section>
 
   <section id="who" class="container mg-b-150">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1">
       <h2 class="text-center">Who's it For?</h2>
       <div class="wrapper">
         <p style="margin-bottom: 2rem">UX Design Contest was originally designed for UX/UI Designers, Product Designers, and people interested in UX design as a career.</p>
@@ -143,7 +148,7 @@
   </section>
 
   <section id="testimonials" class="container mg-b-150">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1">
       <h2 class="text-center">What People Are Saying</h2>
       <div class="wrapper pos-relative mg-b-50">
         <p>
@@ -159,7 +164,7 @@
         <p>
           <strong>&quot;You should check it out!&quot;</strong>
         </p>
-        <p class="small">- Pablo Stanley, Lead Designer at InVision, Founder of <a href="https://www.facebook.com/groups/sketchtogether/" target="_blank">Sketch Together</a>, and Creator of <a href="https://thedesignteam.io/" target="_blank">The Design Team </a> webcomic</a>
+        <p class="small">- Pablo Stanley, Design Lead at InVision, Founder of <a href="https://www.facebook.com/groups/sketchtogether/" target="_blank">Sketch Together</a>, and Creator of <a href="https://thedesignteam.io/" target="_blank">The Design Team </a> webcomic</a>
         </p>
           <!-- <img class="img--testimonial" src="#" alt="Pablo Stanley"> -->
           <img class="pos-absolute wrapper-right-circle-small max-w-118 float"
@@ -223,7 +228,7 @@
   </section>
 
   <section id="how-does-it-work" class="container mg-b-250">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1">
       <h2 class="text-center">How does UX Design Contest work?</h2>
       <div class="wrapper wrapper--full">
         <ol>
@@ -246,7 +251,7 @@
   </section>
 
   <section id="winner-showcase" class="container mg-b-75">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1">
       <h2 class="text-center">Past Contests</h2>
       <!-- <ul class="list-unstyled">
             <li class="small">🏆 Entries will be reviewed + a winner announced on Jan 31 at 6pm PST at <a href="//twitch.tv/ux_adam" target="_blank">twitch.tv/ux_adam</a></li>
@@ -271,7 +276,7 @@
         <img class="pos-absolute wrapper-left-trophy max-w-100 float" src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
           alt="A golden trophy with the letters 'UX' inscribed">
       </div> -->
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #10</span>
           <a class="heading-link"
@@ -290,7 +295,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #9</span>
           <a href="https://uxdesigncontest.com/contests/ux-design-contest-9.html" class="heading-link"
@@ -304,7 +309,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #8</span>
           <a class="heading-link"
@@ -323,7 +328,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #7</span>
           <a href="https://docs.google.com/document/d/1JA_p5OAgXMc5OONXGrBZ1swEm46rdJb6m6wTXYuWfUk/edit?usp=sharing"
@@ -338,7 +343,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #6</span>
           <a class="heading-link"
@@ -357,7 +362,7 @@
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
 
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #5</span>
           <a href="https://goo.gl/tf3wG3" class="heading-link" target="_blank">Use Figma to build a design system for
@@ -371,7 +376,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #4</span>
           <a href="https://goo.gl/bKm75J" class="heading-link" target="_blank">Enhance an experience using
@@ -385,7 +390,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #3</span>
           <a class="heading-link"
@@ -400,7 +405,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative mg-b-75 text-center">
+      <div class="wrapper pos-relative mg-b-75">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #2</span>
           <a class="heading-link"
@@ -416,7 +421,7 @@
             src="https://uxdesigncontest.com/img/ux-trophy@2x.png"
             alt="A golden trophy with the letters 'UX' inscribed"> -->
       </div>
-      <div class="wrapper pos-relative text-center">
+      <div class="wrapper pos-relative">
         <h3>
           <span class="title-alt-1 mg-b-05">UX Design Contest #1</span>
           <a class="heading-link"
@@ -443,7 +448,7 @@
   </section>
 
   <section id="notification-sign-up-bottom" class="container mg-b-150">
-    <div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+    <div class="col-sm-10 offset-sm-1 col-xs-10 offset-xs-1">
       <!-- Begin MailChimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
       <div id="mc_embed_signup">
@@ -494,10 +499,13 @@
   <!-- <a class="img-link" href="https://www.twitch.tv/ux_adam" target="_blank">
     <img class="footer-twitch-sell max-w-640" src="https://uxdesigncontest.com/img/footer-twitch-plug@2x.png" alt="An illustrated characters says, 'For even more live design fun, check out ux_adam’s Twitch Channel'">
   </a> -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-  </script>
+  </script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="js/min/scripts-min.js"></script>
 </body>
 
