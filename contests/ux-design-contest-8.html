@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="icon"
-      type="image/png"
-      href="https://uxdesigncontest.com/img/favicon.png">
+  <link rel="icon" type="image/png" href="https://uxdesigncontest.com/img/favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
-  <title>UX Design Contest #9: Design a doc with superpowers</title>
-  <meta name="description" content="🏆 The 9th contest was all about showing how the no-code revolution powers docs that work like apps.">
+  <title>UX Design Contest #8: Design a Better Search Experience</title>
+  <meta name="description"
+    content="🏆 The 8th contest was all about iterating on an existing search experience to improve the user experience.">
   <meta name="author" content="Product Designer, Adam Ruf">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@uxdcontest">
   <meta name="twitter:creator" content="@ux_adam">
   <meta name="twitter:title" content="🏆 UX Design Contest">
-  <meta name="twitter:description" content="Have fun growing design skills and portfolios. Created by UX Designer and Mentor, Adam Ruf.">
+  <meta name="twitter:description"
+    content="Have fun growing design skills and portfolios. Created by UX Designer and Mentor, Adam Ruf.">
   <meta name="twitter:image" content="https://uxdesigncontest.com/img/twitter-card-img.png">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:300|Teko:700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:300|Teko:700" rel="stylesheet"
+    type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/ux-design-contest.css">
 
   <script type="text/javascript">
-
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-5552191-4']);
     _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+      '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
     })();
-
   </script>
 </head>
+
 <body data-spy="scroll" data-method="offset" data-target="#quickLinks" data-offset="475">
 
   <div class="container mg-b-100" style="margin-top: 5rem">
@@ -43,7 +49,7 @@
       <div class="col-lg-12 col-md-12 mg-b-25">
         <p class="contest-alert">👋 Designers, Contest #11 is open for your entries! <a
             href="https://uxdesigncontest.com/contests/ux-design-contest-11.html">
-          🏆 See contest details</a></p>
+            🏆 See contest details</a></p>
       </div>
     </div>
 
@@ -53,16 +59,17 @@
           <ul class="nav">
             <li class="nav-item"><a class="nav-link" href="https://uxdesigncontest.com">← Back Home</a></li>
             <li style="border-bottom: 1px solid rgba(49, 47, 55, 0.2); width: 100%;"></li>
-            <li class="nav-item"><a class="nav-link" href="#current-contest">Contest #9</a></li>
+            <li class="nav-item"><a class="nav-link" href="#current-contest">Contest #8</a></li>
             <li class="nav-item"><a class="nav-link" href="#note-from-adam">Note from Adam</a></li>
             <li class="nav-item"><a class="nav-link" href="#desired-outcomes">Desired Outcomes</a></li>
-            <li class="nav-item"><a class="nav-link" href="#prizes">Prizes</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contest-rules">Contest Rules</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#prizes">Prizes</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="#contest-rules">Contest Rules</a></li> -->
             <li class="nav-item"><a class="nav-link" href="#how-to-enter">How to Enter</a></li>
             <li class="nav-item"><a class="nav-link" href="#judging-criteria">Judging Criteria</a></li>
             <!-- <li class="nav-item"><a class="nav-link" href="#education-and-support">Education &amp; Support</a></li> -->
             <li class="nav-item"><a class="nav-link" href="#resources">Tools &amp; Resources</a></li>
-            <li class="nav-item"><a class="nav-link" href="#questions-and-feedback">Questions &amp; Feedback</a></li>
+            <li class="nav-item"><a class="nav-link" href="#example">Example Entry</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#questions-and-feedback">Questions &amp; Feedback</a></li> -->
             <li class="nav-item"><a class="nav-link" href="#winners">Winners</a></li>
           </ul>
         </nav>
@@ -71,9 +78,9 @@
       <div class="col-xl-9 col-lg-8 col-md-12">
         <section id="current-contest" class="mg-b-100">
           <div class="wrapper wrapper--md pos-relative contest-intro text-center">
-            <p class="title-alt-1">Contest #9 ended April 14th, 2019</p>
+            <p class="title-alt-1">Contest #8 ended March 3rd, 2019</p>
             <h1 class="current-contest">
-              Design a doc with superpowers
+              Design a Better Search Experience
             </h1>
             <!-- <img src="#" alt=""> -->
           </div>
@@ -84,14 +91,12 @@
           <div class="wrapper wrapper--md">
             <p>👋 Hey Designers,</p>
             <p>
-              Documents are some of the most commonly designed products, empowering customers, companies, teams, and individuals to do their jobs and realize their goals. Developing skills with documenting tools is one way you can start differentiating ourselves as experienced, professional designers.
-            </p>
-            <p>
-              Keeping up with creative trends is an important part of growing as designers. The No-Code movement is one trend that’s disrupting the way we think about documents. It’s time to apply your design thinking process and skills to the No-Code revolution with UX Design Contest 9.
-            </p>
-            <p>
-              This contest is your opportunity to design and build an amazing doc with popular No-Code tools, show it off to the world, and build out your design portfolio. It’s beginner-friendly and... there will be prizes!
-            </p>
+              For this contest, you’re going to: <ul>
+                <li>evaluate an existing search experience</li>
+                <li>propose solutions to the issues you identify</li>
+                <li>test your prototype against the current design</li>
+                <li>present the story of your project</li>
+              </ul>
             <p>
               🤞Good luck and happy designing!
             </p>
@@ -110,38 +115,25 @@
           <div class="wrapper wrapper--md">
             <p>By participating in this contest, you will</p>
             <ul>
-              <li>Gain experience using popular No-Code tools</li>
-              <li>Practice applying your design process to documents</li>
-              <li>Design a useful doc that your audience will love</li>
-              <li>Strengthen your presentation skills</li>
-              <li>Have a chance at winning <a href="#prizes">cool prizes</a></li>
+              <li>Identify and present problems associated with search experiences</li>
+              <li>Practice a goal-driven design process</li>
+              <li>Learn and apply best practices for search experiences</li>
+              <li>Design an accessible search experience</li>
+              <li>Practice designing a persuasive presentation</li>
             </ul>
           </div>
         </section>
 
-        <section id="prizes" class="mg-b-100">
+        <!-- <section id="prizes" class="mg-b-100">
           <h2 class="text-center">Prizes</h2>
           <div class="wrapper wrapper--md">
             <h3>🥇 1st Prize</h3>
-            <ul class="mg-b-50">
-              <li>$50 for your charity</li>
-              <li>30m video call with Product Designer, Adam Ruf</li>
+            <ul class="list-unstyled">
+              <li>$100 for your charity</li>
             </ul>
+        </section> -->
 
-            <h3>🥈 2nd Prize</h3>
-            <ul class="mg-b-50">
-              <li>$25 for your charity</li>
-              <li>15m video call with Product Designer, Adam Ruf</li>
-            </ul>
-
-            <h3>🥉 3rd Prize</h3>
-            <ul>
-              <li>$25 for your charity</li>
-            </ul>
-          </div>
-        </section>
-
-        <section id="contest-rules" class="mg-b-100">
+        <!-- <section id="contest-rules" class="mg-b-100">
           <h2 class="text-center">Contest Rules</h2>
           <div class="wrapper wrapper--md">
             <p>Anyone 18 years or older can participate on their own or as part of a team.</p>
@@ -149,20 +141,16 @@
             <p>Your project can be whatever you decide.</p>
             <p>Only entries that meet all contest requirements will be eligible for winning a prize</p>
           </div>
-        </section>
+        </section> -->
 
         <section id="how-to-enter" class="mg-b-100">
           <h2 class="text-center">How to Enter</h2>
           <div class="wrapper wrapper--md">
             <ol>
-              <li>Use <a href="https://airtable.com/">Airtable</a>, <a href="https://coda.io/welcome">Coda</a>, or <a href="https://www.glideapps.com/">Glide</a> to build an original document that
-                <ol>
-                  <li>Is useful for the intended audience 🙏</li>
-                  <li>Shows off some cool superpowers 💪</li>
-                </ol>
-              </li>
-              <li>Use Loom or Soapbox to record a 3-minute narrated presentation of your project.</li>
-              <li>Use the Entry Form to submit links to your doc and presentation video.</li>
+              <li>Document issues affecting an existing search experience.</li>
+              <li>Design and prototype solutions for improving the search experience with InVision (or other prototyping tool).</li>
+              <li>Test your prototype against the current baseline with UsabilityHub.</li>
+              <li>Present the story of your project in a slide deck.</li>
             </ol>
           </div>
         </section>
@@ -176,16 +164,24 @@
                 <th style="text-align: right">Weight</th>
               </tr>
               <tr>
-                <td>Utility and impact</td>
-                <td style="text-align: right"40%</td>
-              </tr>
-              <tr>
-                <td>Originality and creativity</td>
+                <td>Usability and usefulness</td>
                 <td style="text-align: right">40%</td>
               </tr>
               <tr>
-                <td>Emotional design and humor</td>
+                <td>Complexity and difficulty</td>
+                <td style="text-align: right">30%</td>
+              </tr>
+              <tr>
+                <td>Originality and creativity</td>
                 <td style="text-align: right">20%</td>
+              </tr>
+              <tr>
+                <td>Visual design</td>
+                <td style="text-align: right">5%</td>
+              </tr>
+              <tr>
+                <td>Emotional design and humor</td>
+                <td style="text-align: right">5%</td>
               </tr>
             </table>
           </div>
@@ -208,48 +204,67 @@
           <h2 class="text-center">Tools &amp; Resources</h2>
           <div class="wrapper wrapper--md">
             <ul class="list-unstyled">
-              <li class="title-alt-1">No-Code Tools</li>
-              <li class="mg-b-50">
-                <a href="https://airtable.com/" target="_blank">Airtable</a>
-                <p>An Airtable is a spreadsheet on steroids. By combining easy data entry and the ability to define and share different views of the data, you can create documents that do the work of multiple apps. 💪</p>
+              <li class="title-alt-1">Best Practices for Search</li>
+              <li>
+                <a href="https://www.uxbooth.com/articles/best-practices-for-search/" target="_blank">UX Booth: Best Practices for Search</a>
               </li>
               <li class="mg-b-50">
-                <a href="https://coda.io/welcome" target="_blank">Coda</a>
-                <p>Embed tables, create different views, add conditional formatting, plus all the usual doc tools allow you to build some pretty, pretty, pretty amazing docs.</p>
+                <a href="https://uxplanet.org/best-practices-for-search-results-1bbed9d7a311" target="_blank">UX Planet: Best Practices for Search Results</a>
+              </li>
+              <li class="title-alt-1">Design Tools</li>
+              <li class="mg-b-50">
+                <a href="https://www.invisionapp.com/" target="_blank">InVision</a>
+                <p>Easy and fast image-based prototyping and commenting</p>
               </li>
               <li class="mg-b-50">
-                <a href="https://www.glideapps.com/" target="_blank">Glide</a>
-                <p>Create mobile apps from Google Sheets. 🤯</p>
+                <a href="https://usabilityhub.com/" target="_blank">UsabilityHub</a>
+                <p>Easy and fast image-based prototyping and commenting</p>
               </li>
-              <li class="title-alt-1">Screen Recording</li>
-              <li class="mg-b-50">
-                <a href="https://www.useloom.com/" target="_blank">Loom</a>
-                <p>Adam's current favorite -- Easily record your screen, webcam, or both</p>
+              <li class="title-alt-1">Presentation Tips</li>
+              <li>
+                <a href="https://www.duarte.com/presentation-skills-resources/perfect-your-slide-design/"
+                  target="_blank">4 Tips and 1 Tool That Will Help You Perfect Your Slide Design</a>
               </li>
               <li>
-                <a href="https://wistia.com/soapbox" target="_blank">Soapbox</a>
-                <p>Easily record your screen, webcam, or both</p>
+                <a href="https://www.duarte.com/presentation-skills-resources/presentation-tips/"
+                  target="_blank">Presentation Tips [Short Videos]</a>
               </li>
             </ul>
           </div>
         </section>
 
-        <section id="questions-and-feedback" class="mg-b-100">
+        <section id="example-entry" class="mg-b-100">
+          <h2 class="text-center">Example Entry</h2>
+          <div class="wrapper wrapper--md">
+            <p>Adam's prototype: <a href="https://invis.io/T6QSPIYZ2VG#/349694735_Proposed_01" target="_blank">Try searching for open jobs at Uber</a>
+            </p>
+            <p>Adam's presentation: <a
+                href="https://docs.google.com/presentation/d/1E9tv4sqkVfgkm-m99pzJ4IIklTVE392e_LsAf1SAkbw/edit?usp=sharing"
+                target="_blank">💪🔎 A better search experience for
+                AngelList</a>
+            </p>
+          </div>
+        </section>
+
+        <!-- <section id="questions-and-feedback" class="mg-b-100">
           <h2 class="text-center">Questions &amp; Feedback</h2>
           <div class="wrapper wrapper--md">
             <p>Ask Adam live in chat during his <a href="https://youtube.com/adamruf-ux-designer" target="_blank">weekly
                 live design streams on YouTube</a> or email Adam at adam@adamruf.com</p>
             <p>If you have a suggestion on how to improve future UX Design Contests, please <a
-              href="https://adamruf.typeform.com/to/ZGZC6W" target="_blank">share your feedback</a>.
+                href="https://adamruf.typeform.com/to/ZGZC6W" target="_blank">share your feedback</a>.
             </p>
           </div>
-        </section>
+        </section> -->
 
         <section id="winners" class="mg-b-100">
           <h2 class="text-center">Winners</h2>
           <div class="wrapper wrapper--md">
-            <p class="donger">( ◑ ᗜ ◑ )</pc>
-            <p>🏆 Congratulations to Shubhangi G. who won $50 for her charity and a 1:1 mentoring session for the Trip Planner super doc she made with Coda</p>
+            <p class="donger">ᕙ╏ : ◑ ڡ ◑ : ╏ᕗ</p>
+            <p>🏆 Congratulations to Hana P. who won $100 for her charity, Garden for the Environment, for her project addressing one of Instagram's biggest hashtag issues</p>
+            <p>👏👏 Honorable mentions to Oksana I. and Rose A. for their inspiring entries</p>
+            <p>🙏 Thanks to Priya B. and Veena R. for entering</p>
+            <p>☝️Tip: Double-check all requirements before submitting your entry</p>
           </div>
         </section>
 
@@ -300,9 +315,16 @@
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
   <script src="/js/min/scripts-min.js"></script>
 </body>
+
 </html>
