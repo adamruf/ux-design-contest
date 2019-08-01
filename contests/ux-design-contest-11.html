@@ -35,6 +35,43 @@
     })();
 
   </script>
+  <script>
+    window.iterateSettings = {
+      apiKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjoiNWQ0MzI0NmVhNzdiYzMwMDAxYTkwZGNhIiwiaWF0IjoxNTY0NjgxMzI2fQ.vz3CNGfhk0HytAGx96QuM7RMutyDgt7GT881h1-5MMQ'
+    };
+
+    (function (i, t, e, r, a) {
+      if (t.getElementById(r)) {
+        return
+      }
+      i.IterateObjectName = a;
+      var z = function () {
+        z.c(arguments)
+      };
+      z.q = [];
+      z.c = function (args) {
+        z.q.push(args)
+      };
+      i[a] = z;
+      var js, fjs = t.getElementsByTagName(e)[0];
+
+      function l() {
+        js = t.createElement(e);
+        js.id = r;
+        js.async = 1;
+        js.src = "https://platform.iteratehq.com/loader.js";
+        fjs.parentNode.insertBefore(js, fjs)
+      };
+      if (t.readyState === "complete") {
+        l();
+      } else if (i.attachEvent) {
+        i.attachEvent('onload', l);
+      } else {
+        i.addEventListener('load', l, false);
+      }
+    }(window, document, 'script', 'iterate-js', 'Iterate'));
+  </script>
+
 </head>
 <body data-spy="scroll" data-method="offset" data-target="#quickLinks" data-offset="475">
 
