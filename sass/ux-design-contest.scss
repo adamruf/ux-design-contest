@@ -388,8 +388,9 @@ a {
 .title-alt-1 {
     color: #77767b;
     display: block;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 1rem;
     text-transform: uppercase;
 }
 
@@ -548,10 +549,11 @@ td {
 .contest-alert {
     align-items: center;
     background: $white;
-    border: 0.1rem solid rgba(49, 47, 55, 0.2);
+    // border: 0.1rem solid rgba(49, 47, 55, 0.2);
     display: flex;
     font-size: 1.8rem;
-    padding: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
     padding-left: 5rem;
 }
 
@@ -562,24 +564,24 @@ td {
 
 .contest-alert--error {
     background: $light-red;
-    box-shadow: inset 1rem 0 0 $red, 0 1rem 0 rgba(49, 47, 55, 0.05);
+    box-shadow: inset 1rem 0 0 $red;
 }
 
 .contest-alert--warning {
-    box-shadow: inset 1rem 0 0 $yellow, 0 1rem 0 rgba(49, 47, 55, 0.05);
+    box-shadow: inset 1rem 0 0 $yellow;
 }
 
 .contest-alert--success {
-    box-shadow: inset 1rem 0 0 $green, 0 1rem 0 rgba(49, 47, 55, 0.05);
+    box-shadow: inset 1rem 0 0 $green;
 }
 
 .contest-alert--info {
-    box-shadow: inset 1rem 0 0 $blue, 0 1rem 0 rgba(49, 47, 55, 0.05);
+    box-shadow: inset 1rem 0 0 $blue;
 }
 
-.live-contest {
-    box-shadow: inset 0 0 0 1rem $blue, 0 1rem 0 rgba(49, 47, 55, 0.05);
-}
+// .live-contest {
+//     box-shadow: inset 0 0 0 1rem $blue, 0 1rem 0 rgba(49, 47, 55, 0.05);
+// }
 
 .section-heading {
     &::before {
@@ -642,7 +644,7 @@ td {
     }
 
     .title-alt-1 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         line-height: 1.5;
     }
 
