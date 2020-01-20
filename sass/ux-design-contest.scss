@@ -185,7 +185,7 @@ a {
 
 .nav-item {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .nav-link {
@@ -208,6 +208,12 @@ a {
     box-shadow: 0 0.5rem 0 rgba(49, 47, 55, 0.05);
     left: -3.5rem;
     top: 0.75rem;
+}
+
+.divider {
+  border-bottom: 1px solid $lighter-gray;
+  margin: 1rem 0;
+  width: 100%;
 }
 
 .heading-link {
@@ -316,6 +322,10 @@ a {
     margin-bottom: 2.5rem !important;
 }
 
+.mg-b-30 {
+  margin-bottom: 3rem !important;
+}
+
 .mg-b-50 {
     margin-bottom: 5rem !important;
 }
@@ -383,6 +393,32 @@ a {
         font-size: 16rem;
         text-transform: uppercase;
     }
+}
+
+.title--small {
+  font-family: "Roboto Slab";
+  font-size: 2.5rem;
+  line-height: 1.125;
+
+  span {
+    font-family: "Teko";
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+}
+
+.title-link {
+  color: $light-gray;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $black;
+    // text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+  }
 }
 
 .title-alt-1 {
