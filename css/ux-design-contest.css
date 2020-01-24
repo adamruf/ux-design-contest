@@ -400,7 +400,7 @@ td {
   font-size: 1.8rem;
   margin-top: 2rem;
   padding: 1rem;
-  padding-left: 5rem; }
+  padding-left: 3rem; }
 
 .contest-alert__emoji {
   font-size: 3rem;
@@ -411,12 +411,15 @@ td {
   box-shadow: inset 1rem 0 0 #FF7F9E; }
 
 .contest-alert--warning {
+  background: #FFFEF2;
   box-shadow: inset 1rem 0 0 #FFFD7F; }
 
 .contest-alert--success {
+  background: #F2FFF8;
   box-shadow: inset 1rem 0 0 #7FFFB9; }
 
 .contest-alert--info {
+  background: #F2FEFF;
   box-shadow: inset 1rem 0 0 #7FF6FF; }
 
 .section-heading::before {
@@ -536,7 +539,9 @@ td {
   td {
     padding: 1rem; }
   li {
-    margin-bottom: 1rem; } }
+    margin-bottom: 1rem; }
+  .contest-alert {
+    font-size: 1.6rem; } }
 
 #mc_embed_signup label {
   font-size: 2.5rem !important; }

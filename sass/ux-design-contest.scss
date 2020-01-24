@@ -590,7 +590,7 @@ td {
     font-size: 1.8rem;
     margin-top: 2rem;
     padding: 1rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
 
 .contest-alert__emoji {
@@ -604,14 +604,17 @@ td {
 }
 
 .contest-alert--warning {
+    background: $light-yellow;
     box-shadow: inset 1rem 0 0 $yellow;
 }
 
 .contest-alert--success {
+    background: $light-green;
     box-shadow: inset 1rem 0 0 $green;
 }
 
 .contest-alert--info {
+    background: $light-blue;
     box-shadow: inset 1rem 0 0 $blue;
 }
 
@@ -829,6 +832,10 @@ td {
 
     li {
         margin-bottom: 1rem;
+    }
+
+    .contest-alert {
+        font-size: 1.6rem;
     }
 }
 
