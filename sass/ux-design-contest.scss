@@ -211,9 +211,9 @@ a {
 }
 
 .divider {
-  border-bottom: 1px solid $lighter-gray;
-  margin: 1rem 0;
-  width: 100%;
+    border-bottom: 1px solid $lighter-gray;
+    margin: 1rem 0;
+    width: 100%;
 }
 
 .heading-link {
@@ -323,7 +323,7 @@ a {
 }
 
 .mg-b-30 {
-  margin-bottom: 3rem !important;
+    margin-bottom: 3rem !important;
 }
 
 .mg-b-50 {
@@ -396,29 +396,31 @@ a {
 }
 
 .title--small {
-  font-family: "Roboto Slab";
-  font-size: 2.5rem;
-  line-height: 1.125;
+    font-family: "Roboto Slab";
+    font-size: 2.5rem;
+    line-height: 1.125;
 
-  span {
-    font-family: "Teko";
-    font-weight: 700;
-    font-size: 4rem;
-    text-transform: uppercase;
-  }
+    span {
+        font-family: "Teko";
+        font-weight: 700;
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
 }
 
 .title-link {
-  color: $light-gray;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  &:hover,
-  &:focus,
-  &:active {
-    color: $black;
-    // text-decoration: underline;
+    color: $light-gray;
+    text-decoration: none;
     transition: all 0.2s ease-in-out;
-  }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $black;
+
+        // text-decoration: underline;
+        transition: all 0.2s ease-in-out;
+    }
 }
 
 .title-alt-1 {
@@ -458,6 +460,10 @@ a {
 .wrapper_divider {
     margin: 5rem 0;
     border-top: 1px solid $lighter-gray;
+}
+
+.wrapper--no-padding {
+    padding: 0;
 }
 
 .wrapper--sm {
@@ -585,6 +591,7 @@ td {
 .contest-alert {
     align-items: center;
     background: $white;
+
     // border: 0.1rem solid rgba(49, 47, 55, 0.2);
     display: flex;
     font-size: 1.8rem;
