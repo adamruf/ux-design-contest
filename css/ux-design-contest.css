@@ -94,10 +94,24 @@ a {
   border-bottom: 0.1rem solid transparent;
   color: #00A8FF; }
   a:hover, a:active, a:focus {
-    background: rgba(0, 168, 255, 0.1);
+    background: rgba(0, 168, 255, 0.08);
     color: #00A8FF;
-    text-decoration: none;
+    text-decoration: underline;
     transition: all 0.1s ease-in-out; }
+  a:focus {
+    background: rgba(0, 168, 255, 0.08);
+    outline: none; }
+
+input.email {
+  border: 0.1rem solid rgba(49, 47, 55, 0.2) !important;
+  font-size: 2rem !important;
+  height: auto !important;
+  margin-right: 1rem !important;
+  padding: 1.2rem !important; }
+
+input.email:focus {
+  box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+  outline: none; }
 
 .loud-text {
   font-family: "Teko";
@@ -167,28 +181,50 @@ a {
 
 .button {
   background-color: #7FF6FF;
-  border-radius: 6rem;
+  border-radius: 4rem;
   box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.05);
   color: #312F37;
   display: block;
   font-size: 2rem;
   font-weight: bold;
-  padding: 1rem; }
+  padding: 1.2rem 3rem; }
   .button:hover, .button:active, .button:focus {
     animation: none;
     background-color: #312F37;
     color: white; }
   .button:active {
-    box-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.15);
+    box-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.16);
     transform: translateY(0.4rem);
     transition: all 0.3s ease; }
+  .button:focus {
+    box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+    outline: none; }
 
 .button--black {
-  animation: none;
-  background-color: #666;
-  color: #FFF; }
+  animation: none !important;
+  background-color: #666 !important;
+  border-radius: 4rem !important;
+  color: #FFF !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  height: auto !important;
+  padding: 1.2rem 3rem !important; }
   .button--black:hover, .button--black:active, .button--black:focus {
-    background-color: #312F37; }
+    background-color: #312F37 !important;
+    text-decoration: none; }
+
+.button--black-small {
+  animation: none !important;
+  background-color: #666 !important;
+  border-radius: 4rem !important;
+  color: #FFF !important;
+  font-size: 1.6rem !important;
+  font-weight: bold !important;
+  height: auto !important;
+  padding: 1.2rem 2.4rem !important; }
+  .button--black-small:hover, .button--black-small:active, .button--black-small:focus {
+    background-color: #312F37 !important;
+    text-decoration: none; }
 
 .mg-b-0 {
   margin-bottom: 0 !important; }
@@ -547,7 +583,12 @@ td {
     font-size: 1.6rem; } }
 
 #mc_embed_signup label {
-  font-size: 2.5rem !important; }
+  font-size: 2.5rem !important;
+  margin: 0 !important;
+  padding: 0 !important; }
+
+#mc_embed_signup p {
+  font-size: 1.8rem; }
 
 #mc_embed_signup .button {
   background-color: #666; }

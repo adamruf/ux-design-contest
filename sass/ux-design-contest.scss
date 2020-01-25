@@ -158,11 +158,29 @@ a {
     &:hover,
     &:active,
     &:focus {
-        background: rgba(0, 168, 255, 0.1);
+        background: rgba(0, 168, 255, 0.08);
         color: $link-blue;
-        text-decoration: none;
+        text-decoration: underline;
         transition: all 0.1s ease-in-out;
     }
+
+    &:focus {
+        background: rgba(0, 168, 255, 0.08);
+        outline: none;
+    }
+}
+
+input.email {
+    border: 0.1rem solid rgba(49, 47, 55, 0.2) !important;
+    font-size: 2rem !important;
+    height: auto !important;
+    margin-right: 1rem !important;
+    padding: 1.2rem !important;
+}
+
+input.email:focus {
+    box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+    outline: none;
 }
 
 .loud-text {
@@ -271,13 +289,13 @@ a {
 
 .button {
     background-color: #7FF6FF;
-    border-radius: 6rem;
+    border-radius: 4rem;
     box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.05);
     color: #312F37;
     display: block;
     font-size: 2rem;
     font-weight: bold;
-    padding: 1rem;
+    padding: 1.2rem 3rem;
 
     &:hover,
     &:active,
@@ -288,21 +306,50 @@ a {
     }
 
     &:active {
-        box-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.15);
+        box-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.16);
         transform: translateY(0.4rem);
         transition: all 0.3s ease;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+        outline: none;
     }
 }
 
 .button--black {
-    animation: none;
-    background-color: #666;
-    color: #FFF;
+    animation: none !important;
+    background-color: #666 !important;
+    border-radius: 4rem !important;
+    color: #FFF !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    height: auto !important;
+    padding: 1.2rem 3rem !important;
 
     &:hover,
     &:active,
     &:focus {
-        background-color: #312F37;
+        background-color: #312F37 !important;
+        text-decoration: none;
+    }
+}
+
+.button--black-small {
+    animation: none !important;
+    background-color: #666 !important;
+    border-radius: 4rem !important;
+    color: #FFF !important;
+    font-size: 1.6rem !important;
+    font-weight: bold !important;
+    height: auto !important;
+    padding: 1.2rem 2.4rem !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: #312F37 !important;
+        text-decoration: none;
     }
 }
 
@@ -848,6 +895,12 @@ td {
 
 #mc_embed_signup label {
     font-size: 2.5rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#mc_embed_signup p {
+    font-size: 1.8rem;
 }
 
 #mc_embed_signup .button {
