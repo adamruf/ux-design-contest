@@ -694,6 +694,18 @@ td {
     font-size: 4rem;
 }
 
+// WINNER SECTION
+
+.winner-photo {
+    border: 0.1rem solid $lighter-gray;
+    border-radius: 32px;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+// MEDIA QUERIES
+
 @media (max-width: 991px) {
     .hidden-md-down {
         display: none;

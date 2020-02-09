@@ -475,6 +475,13 @@ td {
   color: rgba(49, 47, 55, 0.2);
   font-size: 4rem; }
 
+.winner-photo {
+  border: 0.1rem solid rgba(49, 47, 55, 0.2);
+  border-radius: 32px;
+  height: 64px;
+  object-fit: cover;
+  width: 64px; }
+
 @media (max-width: 991px) {
   .hidden-md-down {
     display: none; }
