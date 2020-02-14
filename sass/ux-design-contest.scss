@@ -508,7 +508,8 @@ input.email:focus {
 .wrapper {
     background: white;
     border: 0.1rem solid rgba(49, 47, 55, 0.2);
-    box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.05);
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
     margin: 0 auto;
 
     // max-width: 800px;
