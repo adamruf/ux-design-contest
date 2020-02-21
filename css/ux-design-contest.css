@@ -102,6 +102,14 @@ a {
     background: rgba(0, 168, 255, 0.08);
     outline: none; }
 
+::selection {
+  background: #FFFD7F;
+  /* WebKit/Blink Browsers */ }
+
+::-moz-selection {
+  background: #FFFD7F;
+  /* Gecko Browsers */ }
+
 input.email {
   border: 0.1rem solid rgba(49, 47, 55, 0.2) !important;
   font-size: 2rem !important;

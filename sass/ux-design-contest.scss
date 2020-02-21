@@ -170,6 +170,14 @@ a {
     }
 }
 
+::selection {
+    background: $yellow; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: $yellow; /* Gecko Browsers */
+}
+
 input.email {
     border: 0.1rem solid rgba(49, 47, 55, 0.2) !important;
     font-size: 2rem !important;
@@ -487,13 +495,15 @@ input.email:focus {
 }
 
 .intro-illustration img:last-child {
-  display: none;  
+    display: none;
 }
+
 .intro-illustration:hover img:last-child {
-  display: block;  
+    display: block;
 }
+
 .intro-illustration:hover img:first-child {
-  display: none;  
+    display: none;
 }
 
 .intro-animation {
