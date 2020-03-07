@@ -169,8 +169,33 @@ input.email:focus {
 ::-moz-selection {
   background: #FFFD7F; }
 
-.img-link:hover, .img-link:active, .img-link:focus {
-  border: none; }
+.icon-link {
+  padding: 0.5rem 1rem; }
+
+.img-link {
+  border: none;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  z-index: 1; }
+  .img-link:hover {
+    box-shadow: 0 0 16px 2px rgba(0, 168, 255, 0.16);
+    transition: all 0.2s ease-in-out; }
+  .img-link:active {
+    box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16) inset; }
+  .img-link:focus {
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+    outline: none; }
+
+figcaption {
+  background-color: #fafafa;
+  border: 0.1rem solid rgba(49, 47, 55, 0.2);
+  border-top: none;
+  color: #77767b;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding: 1rem 1rem; }
 
 .row {
   margin: 0; }
@@ -314,12 +339,24 @@ input.email:focus {
     text-transform: uppercase; }
 
 .title-link {
-  color: #77767b;
+  color: #312F37;
+  display: block;
   text-decoration: none;
   transition: all 0.2s ease-in-out; }
   .title-link:hover, .title-link:focus, .title-link:active {
+    background-color: transparent;
     color: #312F37;
+    text-decoration: none;
     transition: all 0.2s ease-in-out; }
+    .title-link:hover:after, .title-link:focus:after, .title-link:active:after {
+      content: '\f015';
+      font-family: 'Font Awesome 5 Free';
+      font-size: 2.9rem;
+      font-weight: 900;
+      left: 160px;
+      position: absolute;
+      top: 50px;
+      transition: all 0.2s ease-in-out; }
 
 .title-alt-1 {
   color: #77767b;
@@ -461,6 +498,7 @@ td {
   background: #FFF;
   display: flex;
   font-size: 1.8rem;
+  line-height: 1.25;
   margin-top: 2rem;
   padding: 1rem;
   padding-left: 3rem; }
@@ -500,11 +538,8 @@ td {
   font-size: 4rem; }
 
 .winner-photo {
-  border: 0.1rem solid rgba(49, 47, 55, 0.2);
-  border-radius: 32px;
-  height: 64px;
-  object-fit: cover;
-  width: 64px; }
+  height: 100px;
+  width: 100px; }
 
 @media (max-width: 991px) {
   .hidden-md-down {

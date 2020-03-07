@@ -170,6 +170,8 @@ a {
     }
 }
 
+
+
 ::selection {
     background: $yellow; /* WebKit/Blink Browsers */
 }
@@ -261,12 +263,38 @@ input.email:focus {
     background: #FFFD7F;
 }
 
+.icon-link {
+    padding: 0.5rem 1rem;
+}
+
 .img-link {
-    &:hover,
-    &:active,
+    border: none;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+    &:hover {
+        box-shadow: 0 0 16px 2px rgba(0, 168, 255, 0.16);
+        transition: all 0.2s ease-in-out;
+    }
+    &:active {
+        box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16) inset;
+    }
     &:focus {
         border: none;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+        outline: none;
     }
+}
+
+figcaption {
+    background-color: #fafafa;
+    border: 0.1rem solid rgba(49, 47, 55, 0.2);
+    border-top: none;
+    color: $light-gray;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 1rem 1rem;
 }
 
 .row {
@@ -465,17 +493,29 @@ input.email:focus {
 }
 
 .title-link {
-    color: $light-gray;
+    color: $black;
+    display: block;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 
     &:hover,
     &:focus,
     &:active {
+        background-color: transparent;
         color: $black;
-
-        // text-decoration: underline;
+        text-decoration: none;
+        // text-shadow: 0 0 16px #FFFD7F;
         transition: all 0.2s ease-in-out;
+        &:after {
+            content: '\f015';
+            font-family: 'Font Awesome 5 Free';
+            font-size: 2.9rem;
+            font-weight: 900;
+            left: 160px;
+            position: absolute;
+            top: 50px;
+            transition: all 0.2s ease-in-out;
+        }
     }
 }
 
@@ -670,6 +710,7 @@ td {
     // border: 0.1rem solid rgba(49, 47, 55, 0.2);
     display: flex;
     font-size: 1.8rem;
+    line-height: 1.25;
     margin-top: 2rem;
     padding: 1rem;
     padding-left: 3rem;
@@ -725,11 +766,8 @@ td {
 // WINNER SECTION
 
 .winner-photo {
-    border: 0.1rem solid $lighter-gray;
-    border-radius: 32px;
-    height: 64px;
-    object-fit: cover;
-    width: 64px;
+    height: 100px;
+    width: 100px;
 }
 
 // MEDIA QUERIES
