@@ -1,5 +1,6 @@
 // COLOR VARIABLES
 $black: #312F37;
+$gray: #706f74;
 $light-gray: #77767b;
 $lighter-gray: transparentize($black, 0.8);
 $alt-lighter-gray: #d6d6d7;
@@ -153,13 +154,14 @@ li {
 
 a {
     border-bottom: 0.1rem solid transparent;
-    color: $link-blue;
+    color: $gray;
+    transition: all 0.1s ease-in-out;
 
     &:hover,
     &:active,
     &:focus {
         background: rgba(0, 168, 255, 0.08);
-        color: $link-blue;
+        color: $black;
         text-decoration: underline;
         transition: all 0.1s ease-in-out;
     }
@@ -247,11 +249,11 @@ input.email:focus {
 .heading-link {
     color: inherit;
 
-    &:hover,
-    &:active,
-    &:focus {
-        color: $link-blue;
-    }
+    // &:hover,
+    // &:active,
+    // &:focus {
+    //     color: $link-blue;
+    // }
 }
 
 .link--underlined {
@@ -264,6 +266,7 @@ input.email:focus {
 }
 
 .icon-link {
+    border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
 
@@ -336,6 +339,7 @@ figcaption {
 
 .button {
     background-color: #7FF6FF;
+    border: 0.1rem solid rgba(49, 47, 55, 0.2);
     border-radius: 4rem;
     box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.05);
     color: #312F37;

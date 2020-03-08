@@ -92,10 +92,11 @@ li {
 
 a {
   border-bottom: 0.1rem solid transparent;
-  color: #00A8FF; }
+  color: #706f74;
+  transition: all 0.1s ease-in-out; }
   a:hover, a:active, a:focus {
     background: rgba(0, 168, 255, 0.08);
-    color: #00A8FF;
+    color: #312F37;
     text-decoration: underline;
     transition: all 0.1s ease-in-out; }
   a:focus {
@@ -159,8 +160,6 @@ input.email:focus {
 
 .heading-link {
   color: inherit; }
-  .heading-link:hover, .heading-link:active, .heading-link:focus {
-    color: #00A8FF; }
 
 .link--underlined {
   border-bottom: 0.1rem solid rgba(49, 47, 55, 0.2); }
@@ -170,6 +169,7 @@ input.email:focus {
   background: #FFFD7F; }
 
 .icon-link {
+  border-radius: 0.5rem;
   padding: 0.5rem 1rem; }
 
 .img-link {
@@ -223,6 +223,7 @@ figcaption {
 
 .button {
   background-color: #7FF6FF;
+  border: 0.1rem solid rgba(49, 47, 55, 0.2);
   border-radius: 4rem;
   box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.05);
   color: #312F37;
