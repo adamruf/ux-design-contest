@@ -276,20 +276,21 @@ input.email:focus {
         box-shadow: 0 0 16px 2px rgba(0, 168, 255, 0.16);
         transition: all 0.2s ease-in-out;
     }
-    &:active {
-        box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16) inset;
-    }
     &:focus {
         border: none;
         border-radius: 0.25rem;
         box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
         outline: none;
     }
+    &:active {
+        filter: grayscale(1);
+    }
 }
 
 figcaption {
     background-color: #fafafa;
     border: 0.1rem solid rgba(49, 47, 55, 0.2);
+    border-radius: 0 0 0.5rem 0.5rem;
     border-top: none;
     color: $light-gray;
     font-size: 1.4rem;
@@ -706,8 +707,8 @@ td {
 .contest-alert {
     align-items: center;
     background: $white;
-
-    // border: 0.1rem solid rgba(49, 47, 55, 0.2);
+    border-left: 1rem solid $light-gray;
+    border-radius: 0.5rem;
     display: flex;
     font-size: 1.8rem;
     line-height: 1.25;
@@ -723,22 +724,22 @@ td {
 
 .contest-alert--error {
     background: $light-red;
-    box-shadow: inset 1rem 0 0 $red;
+    border-color: $red;
 }
 
 .contest-alert--warning {
     background: $light-yellow;
-    box-shadow: inset 1rem 0 0 $yellow;
+    border-color: $yellow;
 }
 
 .contest-alert--success {
     background: $light-green;
-    box-shadow: inset 1rem 0 0 $green;
+    border-color: $green;
 }
 
 .contest-alert--info {
     background: $light-blue;
-    box-shadow: inset 1rem 0 0 $blue;
+    border-color: $blue;
 }
 
 // .live-contest {

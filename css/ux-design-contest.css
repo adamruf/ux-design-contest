@@ -180,17 +180,18 @@ input.email:focus {
   .img-link:hover {
     box-shadow: 0 0 16px 2px rgba(0, 168, 255, 0.16);
     transition: all 0.2s ease-in-out; }
-  .img-link:active {
-    box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16) inset; }
   .img-link:focus {
     border: none;
     border-radius: 0.25rem;
     box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
     outline: none; }
+  .img-link:active {
+    filter: grayscale(1); }
 
 figcaption {
   background-color: #fafafa;
   border: 0.1rem solid rgba(49, 47, 55, 0.2);
+  border-radius: 0 0 0.5rem 0.5rem;
   border-top: none;
   color: #77767b;
   font-size: 1.4rem;
@@ -496,6 +497,8 @@ td {
 .contest-alert {
   align-items: center;
   background: #FFF;
+  border-left: 1rem solid #77767b;
+  border-radius: 0.5rem;
   display: flex;
   font-size: 1.8rem;
   line-height: 1.25;
@@ -509,19 +512,19 @@ td {
 
 .contest-alert--error {
   background: #FFF2F5;
-  box-shadow: inset 1rem 0 0 #FF7F9E; }
+  border-color: #FF7F9E; }
 
 .contest-alert--warning {
   background: #FFFEF2;
-  box-shadow: inset 1rem 0 0 #FFFD7F; }
+  border-color: #FFFD7F; }
 
 .contest-alert--success {
   background: #F2FFF8;
-  box-shadow: inset 1rem 0 0 #7FFFB9; }
+  border-color: #7FFFB9; }
 
 .contest-alert--info {
   background: #F2FEFF;
-  box-shadow: inset 1rem 0 0 #7FF6FF; }
+  border-color: #7FF6FF; }
 
 .section-heading::before {
   background: black;
