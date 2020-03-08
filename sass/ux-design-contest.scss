@@ -273,18 +273,28 @@ input.email:focus {
     transition: all 0.2s ease-in-out;
     z-index: 1;
     &:hover {
-        box-shadow: 0 0 16px 2px rgba(0, 168, 255, 0.16);
+        background: none;
+        box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
+        transform: scale(1.025);
         transition: all 0.2s ease-in-out;
+        img {
+            border-radius: 0.5rem !important;
+            transition: all 0.2s ease-in-out;
+        }
     }
     &:focus {
         border: none;
         border-radius: 0.25rem;
-        box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+        box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16), 0 1rem 0 rgba(49, 47, 55, 0.025);
         outline: none;
+        transform: scale(1.025);
+        transition: all 0.2s ease-in-out;
     }
     &:active {
         filter: grayscale(1);
+        transition: all 0.2s ease-in-out;
     }
+
 }
 
 figcaption {
