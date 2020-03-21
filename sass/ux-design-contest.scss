@@ -173,8 +173,6 @@ a {
     }
 }
 
-
-
 ::selection {
     background: $yellow; /* WebKit/Blink Browsers */
 }
@@ -241,6 +239,19 @@ input.email:focus {
     top: 0.75rem;
 }
 
+.subpage-title {
+    // background: $yellow;
+    // border: 0.1rem solid $lighter-gray;
+    // border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-top: -1rem;
+
+    // padding: 0 1rem;
+    text-transform: uppercase;
+}
+
 .divider {
     border-bottom: 1px solid $lighter-gray;
     margin: 1rem 0;
@@ -249,12 +260,6 @@ input.email:focus {
 
 .heading-link {
     color: inherit;
-
-    // &:hover,
-    // &:active,
-    // &:focus {
-    //     color: $link-blue;
-    // }
 }
 
 .link--underlined {
@@ -276,16 +281,19 @@ input.email:focus {
     position: relative;
     transition: all 0.2s ease-in-out;
     z-index: 1;
+
     &:hover {
         background: none;
         box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
         transform: scale(1.025);
         transition: all 0.2s ease-in-out;
+
         img {
             border-radius: 0.5rem !important;
             transition: all 0.2s ease-in-out;
         }
     }
+
     &:focus {
         border: none;
         border-radius: 0.25rem;
@@ -294,11 +302,11 @@ input.email:focus {
         transform: scale(1.025);
         transition: all 0.2s ease-in-out;
     }
+
     &:active {
         filter: grayscale(1);
         transition: all 0.2s ease-in-out;
     }
-
 }
 
 figcaption {
@@ -336,7 +344,7 @@ figcaption {
 
 .button {
     background-color: #7FF6FF;
-    border: 0.1rem solid rgba(49, 47, 55, 0.2);
+    border: 0.1rem solid $lighter-gray;
     border-radius: 4rem;
     box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.05);
     color: #312F37;
@@ -516,17 +524,30 @@ figcaption {
         background-color: transparent;
         color: $black;
         text-decoration: none;
+
         // text-shadow: 0 0 16px #FFFD7F;
         transition: all 0.2s ease-in-out;
+
         &:after {
             content: '\f015';
             font-family: 'Font Awesome 5 Free';
             font-size: 2.9rem;
             font-weight: 900;
-            left: 160px;
+            left: 16rem;
             position: absolute;
-            top: 50px;
+            top: 5rem;
             transition: all 0.2s ease-in-out;
+        }
+    }
+}
+
+.title-link--alt {
+    &:hover,
+    &:focus,
+    &:active {
+        &:after {
+            left: 17.5rem;
+            top: 5.2rem;
         }
     }
 }
@@ -596,6 +617,18 @@ figcaption {
 .wrapper--sm {
     font-size: 1.6rem;
     padding: 2.5rem;
+}
+
+.wrapper--top-nav {
+    padding: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.top-nav__tagline {
+    color: $light-gray;
+    font-size: 1.6rem;
+    font-style: italic;
+    padding-left: 5rem;
 }
 
 .ux-trophy-banner--full-width {
@@ -725,7 +758,7 @@ td {
     line-height: 1.25;
     margin-top: 2rem;
     padding: 1rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 .contest-alert__emoji {
@@ -777,9 +810,23 @@ td {
 
 // WINNER SECTION
 
-.winner-photo {
+.winner-photo,
+.volunteer__img {
     height: 100px;
     width: 100px;
+}
+
+// VOlUNTEERS
+.volunteer__date {
+    color: $light-gray;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.volunteer__img {
+    margin-right: 2rem;
 }
 
 // MEDIA QUERIES
@@ -807,6 +854,10 @@ td {
 @media (max-width: 666px) {
     body {
         font-size: 1.6rem;
+    }
+
+    .contest-alert {
+        padding-left: 1rem;
     }
 
     .donger {
@@ -840,8 +891,15 @@ td {
         font-size: 1.4rem;
     }
 
+    .volunteer__img,
+    .volunteer__name,
+    .volunteer__date,
+    .volunteer__links {
+        margin: 0 auto;
+    }
+
     .wrapper {
-        padding: 4rem;
+        padding: 3rem;
     }
 
     .wrapper_divider {
@@ -985,6 +1043,7 @@ td {
 
 #mc_embed_signup label {
     font-size: 2.5rem !important;
+    line-height: 1.25 !important;
     margin: 0 !important;
     padding: 0 !important;
 }

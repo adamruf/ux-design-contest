@@ -154,6 +154,13 @@ input.email:focus {
   left: -3.5rem;
   top: 0.75rem; }
 
+.subpage-title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-top: -1rem;
+  text-transform: uppercase; }
+
 .divider {
   border-bottom: 1px solid rgba(49, 47, 55, 0.2);
   margin: 1rem 0;
@@ -361,10 +368,14 @@ figcaption {
       font-family: 'Font Awesome 5 Free';
       font-size: 2.9rem;
       font-weight: 900;
-      left: 160px;
+      left: 16rem;
       position: absolute;
-      top: 50px;
+      top: 5rem;
       transition: all 0.2s ease-in-out; }
+
+.title-link--alt:hover:after, .title-link--alt:focus:after, .title-link--alt:active:after {
+  left: 17.5rem;
+  top: 5.2rem; }
 
 .title-alt-1 {
   color: #77767b;
@@ -417,6 +428,16 @@ figcaption {
 .wrapper--sm {
   font-size: 1.6rem;
   padding: 2.5rem; }
+
+.wrapper--top-nav {
+  padding: 2.5rem;
+  padding-bottom: 1.5rem; }
+
+.top-nav__tagline {
+  color: #77767b;
+  font-size: 1.6rem;
+  font-style: italic;
+  padding-left: 5rem; }
 
 .ux-trophy-banner--full-width {
   margin-top: -2rem;
@@ -511,7 +532,7 @@ td {
   line-height: 1.25;
   margin-top: 2rem;
   padding: 1rem;
-  padding-left: 3rem; }
+  padding-left: 2rem; }
 
 .contest-alert__emoji {
   font-size: 3rem;
@@ -547,9 +568,20 @@ td {
   color: rgba(49, 47, 55, 0.2);
   font-size: 4rem; }
 
-.winner-photo {
+.winner-photo,
+.volunteer__img {
   height: 100px;
   width: 100px; }
+
+.volunteer__date {
+  color: #77767b;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase; }
+
+.volunteer__img {
+  margin-right: 2rem; }
 
 @media (max-width: 991px) {
   .hidden-md-down {
@@ -566,6 +598,8 @@ td {
 @media (max-width: 666px) {
   body {
     font-size: 1.6rem; }
+  .contest-alert {
+    padding-left: 1rem; }
   .donger {
     font-size: 3rem; }
   .ux-trophy-banner {
@@ -583,8 +617,13 @@ td {
     padding: 1rem; }
   .small {
     font-size: 1.4rem; }
+  .volunteer__img,
+  .volunteer__name,
+  .volunteer__date,
+  .volunteer__links {
+    margin: 0 auto; }
   .wrapper {
-    padding: 4rem; }
+    padding: 3rem; }
   .wrapper_divider {
     margin: 2rem 0;
     border-top: 1px solid rgba(49, 47, 55, 0.2); }
@@ -660,6 +699,7 @@ td {
 
 #mc_embed_signup label {
   font-size: 2.5rem !important;
+  line-height: 1.25 !important;
   margin: 0 !important;
   padding: 0 !important; }
 
