@@ -616,6 +616,7 @@ figcaption {
 
 .top-nav__content {
     font-size: 1.6rem;
+
     @media (min-width: 567px) {
         padding-left: 5rem;
     }
@@ -625,6 +626,10 @@ figcaption {
     color: $light-gray;
     font-size: 1.6rem;
     font-style: italic;
+
+    @media (min-width: 567px) {
+        text-align: center;
+    }
 }
 
 .ux-trophy-banner--full-width {

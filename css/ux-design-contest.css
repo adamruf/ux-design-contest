@@ -440,6 +440,9 @@ figcaption {
   color: #77767b;
   font-size: 1.6rem;
   font-style: italic; }
+  @media (min-width: 567px) {
+    .top-nav__tagline {
+      text-align: center; } }
 
 .ux-trophy-banner--full-width {
   margin-top: -2rem;
