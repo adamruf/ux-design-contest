@@ -356,6 +356,7 @@ figcaption {
 .title-link {
   color: #312F37;
   display: block;
+  position: relative;
   text-decoration: none;
   transition: all 0.2s ease-in-out; }
   .title-link:hover, .title-link:focus, .title-link:active {
@@ -368,14 +369,10 @@ figcaption {
       font-family: 'Font Awesome 5 Free';
       font-size: 2.9rem;
       font-weight: 900;
-      left: 16rem;
+      left: 13.5rem;
       position: absolute;
-      top: 5rem;
+      top: 2.5rem;
       transition: all 0.2s ease-in-out; }
-
-.title-link--alt:hover:after, .title-link--alt:focus:after, .title-link--alt:active:after {
-  left: 17.5rem;
-  top: 5.2rem; }
 
 .title-alt-1 {
   color: #77767b;
@@ -433,11 +430,16 @@ figcaption {
   padding: 2.5rem;
   padding-bottom: 1.5rem; }
 
+.top-nav__content {
+  font-size: 1.6rem; }
+  @media (min-width: 567px) {
+    .top-nav__content {
+      padding-left: 5rem; } }
+
 .top-nav__tagline {
   color: #77767b;
   font-size: 1.6rem;
-  font-style: italic;
-  padding-left: 5rem; }
+  font-style: italic; }
 
 .ux-trophy-banner--full-width {
   margin-top: -2rem;

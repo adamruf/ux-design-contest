@@ -515,6 +515,7 @@ figcaption {
 .title-link {
     color: $black;
     display: block;
+    position: relative;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 
@@ -533,21 +534,10 @@ figcaption {
             font-family: 'Font Awesome 5 Free';
             font-size: 2.9rem;
             font-weight: 900;
-            left: 16rem;
+            left: 13.5rem;
             position: absolute;
-            top: 5rem;
+            top: 2.5rem;
             transition: all 0.2s ease-in-out;
-        }
-    }
-}
-
-.title-link--alt {
-    &:hover,
-    &:focus,
-    &:active {
-        &:after {
-            left: 17.5rem;
-            top: 5.2rem;
         }
     }
 }
@@ -624,11 +614,17 @@ figcaption {
     padding-bottom: 1.5rem;
 }
 
+.top-nav__content {
+    font-size: 1.6rem;
+    @media (min-width: 567px) {
+        padding-left: 5rem;
+    }
+}
+
 .top-nav__tagline {
     color: $light-gray;
     font-size: 1.6rem;
     font-style: italic;
-    padding-left: 5rem;
 }
 
 .ux-trophy-banner--full-width {
