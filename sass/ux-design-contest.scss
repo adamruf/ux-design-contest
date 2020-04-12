@@ -843,6 +843,12 @@ td {
     }
 }
 
+@media (min-width: 768px) {
+    .flip-horizontal--md-up {
+        transform: rotateY(180deg);
+    }
+}
+
 @media (max-width: 767px) {
     .title {
         font-size: 7rem;

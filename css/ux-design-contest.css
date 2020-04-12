@@ -435,7 +435,6 @@ figcaption {
   @media (min-width: 567px) {
     .top-nav__content {
       padding-left: 5rem; } }
-
 .top-nav__tagline {
   color: #77767b;
   font-size: 1.6rem;
@@ -443,7 +442,6 @@ figcaption {
   @media (min-width: 567px) {
     .top-nav__tagline {
       text-align: center; } }
-
 .ux-trophy-banner--full-width {
   margin-top: -2rem;
   width: 100%; }
@@ -594,6 +592,10 @@ td {
     display: none; }
   .content-intro::before {
     left: 85px !important; } }
+
+@media (min-width: 768px) {
+  .flip-horizontal--md-up {
+    transform: rotateY(180deg); } }
 
 @media (max-width: 767px) {
   .title {
