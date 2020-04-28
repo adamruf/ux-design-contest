@@ -14,7 +14,9 @@ $light-red: #FFF2F5;
 $light-yellow: #FFFEF2;
 $light-green: #F2FFF8;
 $light-blue: #F2FEFF;
-$link-blue: #00A8FF;
+
+// $link-blue: #00A8FF;
+// $link-blue: #1a73e8;
 
 // MIXINS
 @mixin base-font {
@@ -154,16 +156,18 @@ li {
 }
 
 a {
-    border-bottom: 0.1rem solid transparent;
+    border-bottom: 0.1rem solid $lighter-gray;
     color: $gray;
+    text-decoration: none;
     transition: all 0.1s ease-in-out;
 
     &:hover,
     &:active,
     &:focus {
         background: rgba(0, 168, 255, 0.08);
+        border-color: $black;
         color: $black;
-        text-decoration: underline;
+        text-decoration: none;
         transition: all 0.1s ease-in-out;
     }
 
@@ -218,7 +222,9 @@ input.email:focus {
 }
 
 .nav-link {
+    border-bottom: none;
     border-radius: 2rem;
+    font-weight: 400;
     padding: 0.5rem 1rem 0.5rem 1rem;
     position: relative;
 
@@ -272,6 +278,7 @@ input.email:focus {
 }
 
 .icon-link {
+    border-bottom: none;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
@@ -502,6 +509,7 @@ figcaption {
 .title--small {
     font-family: "Roboto Slab";
     font-size: 2.5rem;
+    font-weight: 400;
     line-height: 1.125;
 
     span {
@@ -513,6 +521,7 @@ figcaption {
 }
 
 .title-link {
+    border-bottom: none;
     color: $black;
     display: block;
     position: relative;
@@ -549,6 +558,10 @@ figcaption {
     font-weight: bold;
     margin-bottom: 1rem;
     text-transform: uppercase;
+}
+
+abbr {
+    text-decoration: none !important;
 }
 
 .intro-illustration {
@@ -751,15 +764,14 @@ td {
 
 .contest-alert {
     align-items: center;
-    background: $white;
+    background: $off-white;
     border-left: 1rem solid $light-gray;
     border-radius: 0.5rem;
     display: flex;
     font-size: 1.8rem;
     line-height: 1.25;
     margin: 2rem 0;
-    padding: 1rem;
-    padding-left: 2rem;
+    padding: 1.5rem;
 }
 
 .contest-alert__emoji {
@@ -829,6 +841,44 @@ td {
 
 .volunteer__img {
     margin-right: 2rem;
+}
+
+// MODAL
+
+.modal-content {
+    background: white;
+    border: 0.1rem solid rgba(49, 47, 55, 0.2);
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
+}
+
+.modal-header,
+.modal-body {
+    padding: 2.5rem 5rem;
+}
+
+.modal-header {
+    align-items: center;
+
+    .close {
+        border-radius: 0.4rem;
+        box-sizing: border-box;
+        font-size: 3rem;
+        width: 5rem;
+
+        &:hover {
+            background-color: $alt-lighter-gray;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
+            outline: none;
+        }
+    }
+}
+
+.modal-body h3 {
+    margin-top: 5rem;
 }
 
 // MEDIA QUERIES
