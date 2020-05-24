@@ -381,7 +381,7 @@ figcaption {
     }
 }
 
-.button--black {
+.button--gray {
     animation: none !important;
     background-color: #666 !important;
     border-radius: 4rem !important;
@@ -399,22 +399,17 @@ figcaption {
     }
 }
 
-.button--black-small {
-    animation: none !important;
-    background-color: #666 !important;
-    border-radius: 4rem !important;
-    color: #FFF !important;
+.button--sm {
     font-size: 1.6rem !important;
-    font-weight: bold !important;
-    height: auto !important;
     padding: 1.2rem 2.4rem !important;
+}
 
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: #312F37 !important;
-        text-decoration: none;
-    }
+.button--xs {
+    display: inline-block;
+    font-size: 1.4rem !important;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem !important;
 }
 
 .mg-b-0 {
@@ -947,6 +942,7 @@ td {
     .charity__img {
         // height: 50px;
         // width: 50px;
+   
     }
 
     .charity__name {

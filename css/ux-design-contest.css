@@ -254,7 +254,7 @@ figcaption {
     box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
     outline: none; }
 
-.button--black {
+.button--gray {
   animation: none !important;
   background-color: #666 !important;
   border-radius: 4rem !important;
@@ -263,22 +263,20 @@ figcaption {
   font-weight: bold !important;
   height: auto !important;
   padding: 1.2rem 3rem !important; }
-  .button--black:hover, .button--black:active, .button--black:focus {
+  .button--gray:hover, .button--gray:active, .button--gray:focus {
     background-color: #312F37 !important;
     text-decoration: none; }
 
-.button--black-small {
-  animation: none !important;
-  background-color: #666 !important;
-  border-radius: 4rem !important;
-  color: #FFF !important;
+.button--sm {
   font-size: 1.6rem !important;
-  font-weight: bold !important;
-  height: auto !important;
   padding: 1.2rem 2.4rem !important; }
-  .button--black-small:hover, .button--black-small:active, .button--black-small:focus {
-    background-color: #312F37 !important;
-    text-decoration: none; }
+
+.button--xs {
+  display: inline-block;
+  font-size: 1.4rem !important;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem !important; }
 
 .mg-b-0 {
   margin-bottom: 0 !important; }
