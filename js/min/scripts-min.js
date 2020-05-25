@@ -1,1 +1,1 @@
-$("document").ready((function(){$('[data-toggle="tooltip"]').tooltip()})),$("document").ready((function(){$(".js-counter").each((function(){var t=$(this),n=t.attr("data-count");$({countNum:t.text()}).animate({countNum:n},{duration:3e3,easing:"swing",step:function(){t.text(Math.floor(this.countNum))},complete:function(){t.text(this.countNum)}})}))}));
+"use strict";$("document").ready((function(){$('[data-toggle="tooltip"]').tooltip()})),window.onload=function(){var t,o;new CountUp("number",0,650,0,3,{useEasing:"swing",useGrouping:!0,separator:","}).start()};

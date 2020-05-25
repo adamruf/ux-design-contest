@@ -64,8 +64,8 @@ a {
   transition: all 0.1s ease-in-out; }
   a:hover, a:active, a:focus {
     background: rgba(0, 168, 255, 0.08);
-    border-color: #312F37;
-    color: #312F37;
+    border-color: #312f37;
+    color: #312f37;
     text-decoration: none;
     transition: all 0.1s ease-in-out; }
   a:focus {
@@ -328,14 +328,14 @@ figcaption {
 
 .title-link {
   border-bottom: none;
-  color: #312F37;
+  color: #312f37;
   display: block;
   position: relative;
   text-decoration: none;
   transition: all 0.2s ease-in-out; }
   .title-link:hover, .title-link:focus, .title-link:active {
     background-color: transparent;
-    color: #312F37;
+    color: #312f37;
     text-decoration: none;
     transition: all 0.2s ease-in-out; }
     .title-link:hover:after, .title-link:focus:after, .title-link:active:after {
@@ -571,7 +571,7 @@ td {
   align-items: center;
   border-bottom: none;
   border-radius: 0.5rem;
-  color: #312F37;
+  color: #312f37;
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
