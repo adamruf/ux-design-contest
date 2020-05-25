@@ -166,6 +166,10 @@ input.email:focus {
     // }
 }
 
+.text--subtle {
+    color: $alt-lighter-gray;
+}
+
 #testimonials strong {
     font-size: 2.5rem;
     line-height: 1.25em;
@@ -176,17 +180,25 @@ input.email:focus {
     margin-bottom: 0.5rem;
 }
 
-.nav-link {
+.nav-link,
+.current-page {
     border-bottom: none;
     border-radius: 2rem;
     font-weight: 400;
     padding: 0.5rem 1rem 0.5rem 1rem;
     position: relative;
-
-    // width: fit-content;
 }
 
-.nav-link.active::before {
+.current-page {
+    font-weight: 700;
+}
+
+.sub-nav-link {
+    margin-left: 0rem;
+}
+
+.nav-link.active::before,
+.sub-nav-link.active::before {
     // box-shadow: inset 1rem 0 0 $blue;
     content: '';
     position: absolute;
@@ -493,6 +505,7 @@ figcaption {
         transition: all 0.2s ease-in-out;
 
         &:after {
+            color: $alt-lighter-gray;
             content: '\f015';
             font-family: 'Font Awesome 5 Free';
             font-size: 2.9rem;
@@ -873,6 +886,20 @@ td {
 }
 
 // MEDIA QUERIES
+
+
+@media (max-width: 1199px) {
+    .wrapper--sm {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
+    .nav-link.active::before,
+    .sub-nav-link.active::before {
+        left: -3rem;
+        top: 0.6rem;
+    }
+}
 
 @media (max-width: 991px) {
     .hidden-md-down {

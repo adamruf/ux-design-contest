@@ -97,6 +97,9 @@ input.email:focus {
   line-height: 1;
   text-transform: uppercase; }
 
+.text--subtle {
+  color: #d6d6d7; }
+
 #testimonials strong {
   font-size: 2.5rem;
   line-height: 1.25em; }
@@ -105,14 +108,22 @@ input.email:focus {
   width: 100%;
   margin-bottom: 0.5rem; }
 
-.nav-link {
+.nav-link,
+.current-page {
   border-bottom: none;
   border-radius: 2rem;
   font-weight: 400;
   padding: 0.5rem 1rem 0.5rem 1rem;
   position: relative; }
 
-.nav-link.active::before {
+.current-page {
+  font-weight: 700; }
+
+.sub-nav-link {
+  margin-left: 0rem; }
+
+.nav-link.active::before,
+.sub-nav-link.active::before {
   content: '';
   position: absolute;
   height: 2rem;
@@ -339,6 +350,7 @@ figcaption {
     text-decoration: none;
     transition: all 0.2s ease-in-out; }
     .title-link:hover:after, .title-link:focus:after, .title-link:active:after {
+      color: #d6d6d7;
       content: '\f015';
       font-family: 'Font Awesome 5 Free';
       font-size: 2.9rem;
@@ -616,6 +628,15 @@ td {
 
 .modal-body h3 {
   margin-top: 5rem; }
+
+@media (max-width: 1199px) {
+  .wrapper--sm {
+    font-size: 1.5rem;
+    padding: 2rem; }
+  .nav-link.active::before,
+  .sub-nav-link.active::before {
+    left: -3rem;
+    top: 0.6rem; } }
 
 @media (max-width: 991px) {
   .hidden-md-down {
