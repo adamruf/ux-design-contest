@@ -175,6 +175,10 @@ input.email:focus {
     line-height: 1.25em;
 }
 
+.sticky-top {
+    top: 3rem;
+}
+
 .nav-item {
     width: 100%;
     margin-bottom: 0.5rem;
@@ -975,6 +979,10 @@ td {
     .button {
         font-size: 1.6rem;
         padding: 1rem;
+    }
+
+    .button--sm {
+        font-size: 1.4rem !important;
     }
 
     .small {
