@@ -47,6 +47,13 @@ h4 {
   font-size: 2rem;
   font-weight: bold; }
 
+.heading--uppercase {
+  color: #77767b;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  text-transform: uppercase; }
+
 p {
   margin-bottom: 1.5rem; }
 

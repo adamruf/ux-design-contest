@@ -2,3 +2,4 @@
 *.sketch
 *.codekit3
 *staging
+.vscode/settings.json
