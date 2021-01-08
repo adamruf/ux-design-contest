@@ -344,6 +344,7 @@ figcaption {
 	&:focus {
 		animation: none;
 		background-color: #b3faff;
+		border-color: $lighter-gray;
 		// background-color: #312F37;
 		// color: white;
 		text-decoration: none;

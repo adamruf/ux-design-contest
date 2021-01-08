@@ -231,6 +231,7 @@ figcaption {
   .button:hover, .button:active, .button:focus {
     animation: none;
     background-color: #b3faff;
+    border-color: rgba(49, 47, 55, 0.2);
     text-decoration: none; }
   .button:active {
     box-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.16);
