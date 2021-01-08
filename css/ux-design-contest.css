@@ -230,8 +230,7 @@ figcaption {
   padding: 1.2rem 3rem; }
   .button:hover, .button:active, .button:focus {
     animation: none;
-    background-color: #312F37;
-    color: white;
+    background-color: #b3faff;
     text-decoration: none; }
   .button:active {
     box-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.16);
