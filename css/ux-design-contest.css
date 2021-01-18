@@ -565,6 +565,9 @@ td {
   background: #F2FEFF;
   border-color: #7FF6FF; }
 
+.live-contest {
+  box-shadow: inset 0 0 5rem #FFFD7F, 0 1rem 0 rgba(49, 47, 55, 0.05); }
+
 .section-heading::before {
   background: black;
   border-radius: 0.1em;
