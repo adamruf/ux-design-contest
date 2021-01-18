@@ -13,7 +13,7 @@ body {
   background-attachment: fixed;
   background-size: 1280px;
   color: #312F37;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.55; }
 
 h1 {
@@ -67,12 +67,15 @@ li {
 a {
   border-bottom: 0.1rem solid rgba(49, 47, 55, 0.2);
   color: #706f74;
+  font-weight: 600;
   text-decoration: none;
   transition: all 0.1s ease-in-out; }
   a:hover, a:active, a:focus {
     background: rgba(0, 168, 255, 0.08);
     border-color: #312f37;
+    border-color: #0096e0;
     color: #312f37;
+    color: #0096e0;
     text-decoration: none;
     transition: all 0.1s ease-in-out; }
   a:focus {
@@ -87,13 +90,16 @@ a {
   background: #FFFD7F;
   /* Gecko Browsers */ }
 
+input,
 input.email {
   border: 0.1rem solid rgba(49, 47, 55, 0.2) !important;
+  border-radius: 0.5rem !important;
   font-size: 2rem !important;
   height: auto !important;
   margin-right: 1rem !important;
   padding: 1.2rem !important; }
 
+input:focus,
 input.email:focus {
   box-shadow: 0 0 0 8px rgba(0, 168, 255, 0.16);
   outline: none; }
@@ -105,7 +111,7 @@ input.email:focus {
   text-transform: uppercase; }
 
 .text--subtle {
-  color: #d6d6d7; }
+  color: #77767b; }
 
 #testimonials strong {
   font-size: 2.5rem;
@@ -797,3 +803,30 @@ td {
   display: block;
   margin-top: 1rem;
   width: 8rem; }
+
+.has-tooltip {
+  border-bottom: 2px dashed rgba(49, 47, 55, 0.2); }
+
+.tooltip-inner {
+  background-color: #FFF !important;
+  border-radius: 0.4rem;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 16px rgba(50, 78, 93, 0.04);
+  color: #312f37;
+  font-size: 1.6rem;
+  font-weight: 400;
+  max-width: 428px;
+  opacity: 1;
+  padding: 0.8rem 2rem; }
+
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #FFF !important; }
+
+.tooltip.bs-tooltip-left .arrow:before {
+  border-left-color: #FFF !important; }
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #FFF !important; }
+
+.tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: #FFF !important; }
