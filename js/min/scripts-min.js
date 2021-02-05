@@ -1,1 +1,1 @@
-"use strict";$("document").ready((function(){$('[data-toggle="tooltip"]').tooltip()})),window.onload=function(){var t,o;new CountUp("number",0,650,0,3,{useEasing:"swing",useGrouping:!0,separator:","}).start()};
+"use strict";$("document").ready((function(){$('[data-toggle="tooltip"]').tooltip()})),window.onload=function(){var t,o;new CountUp("number",0,750,0,3,{useEasing:"swing",useGrouping:!0,separator:","}).start()};

@@ -10,6 +10,6 @@ window.onload = function () {
     useGrouping: true,
     separator: ','
   };
-  var countDonation = new CountUp("number", 0, 650, 0, 3, options);
+  var countDonation = new CountUp("number", 0, 750, 0, 3, options);
   countDonation.start();
 };
