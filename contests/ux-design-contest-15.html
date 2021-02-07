@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="https://uxdesigncontest.com/img/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>Design a new feature for a site or app you love - UX Design Contest #15</title>
+  <meta name="description" content="🏆 The 15th UX design contest is all about celebrating a favorite site or app by making it even better.">
+  <meta name="author" content="Product Designer, Adam Ruf">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@uxdcontest">
+  <meta name="twitter:creator" content="@ux_adam">
+  <meta name="twitter:title" content="🏆 UX Design Contest">
+  <meta name="twitter:description" content="Win $$$ for your charity and have fun growing your design skills and portfolio. Created by UX Design Mentor, Adam Ruf.">
+  <meta name="twitter:image" content="https://uxdesigncontest.com/img/peeps-twitter-card-img.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Slab:300,700|Teko:700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/ux-design-contest.css">
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5552191-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+        '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+<body data-spy="scroll" data-method="offset" data-target="#quickLinks" data-offset="368">
+  <div class="sticky-top" style="
+      background: #312f37;
+      box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 16px;
+      text-align: center;
+      top: 0;
+      z-index: 2;
+    ">
+    <p style="color: white;margin-bottom: 0;">✊🏾✊🏽✊🏿<span style="font-weight: bold; margin-right: 2rem;">#BlackLivesMatter</span></p>
+    <p style="color: white;margin-bottom: 0;"><span style="margin-right: 2rem;"><em>To be silent is to be complicit</em></span></p>
+    <p style="color: white;margin-bottom: 0;"><a class="link--white" style="color: white; font-weight: bold; text-decoration: underline;" href="https://secure.actblue.com/contribute/page/support-us" target="_blank">Donate what you can</a> ✊🏾✊🏽✊🏿</p>
+  </div>
+  <a href="#current-contest" class="sr-only sr-only-focusable">&nbsp; Skip to main content &nbsp;</a>
+
+  <div class="container mg-b-50" style="margin-top: 3rem">
+
+    <!-- <div class="row">
+      <div class="col-md-12">
+        <section class="container mg-b-50" id="announcement" style="margin: -3rem auto 2rem !important;padding: 0;">
+          <div class="wrapper p-0">
+            <p class="contest-alert contest-alert--info m-0"><span class="contest-alert__emoji">🏆</span>
+              <span style="margin-right: 1rem;">Contest #15 is now open for your entries! 🤞Good luck and Happy Designing! 🤓</span>
+            </p>
+          </div>
+        </section>
+      </div>
+    </div> -->
+
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-4 d-lg-block d-none d-sm-none d-md-none">
+        <nav id="quickLinks" class="wrapper wrapper--sm sticky-top" style="top: 9rem;">
+          <ul class="nav">
+            <li style="margin-bottom: 0;">
+              <a class="title-link" href="https://uxdesigncontest.com">
+                <div class="title--small">UX Design
+                  <br><span>Contest</span>
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li class="nav-item"><a class="nav-link" href="#current-contest">Contest #15</a></li>
+            <li class="nav-item"><a class="nav-link" href="#winners">Winning Entry</a></li>
+            <li class="nav-item"><a class="nav-link" href="#note-from-adam">Note from Adam</a></li>
+            <li class="nav-item"><a class="nav-link" href="#desired-outcomes">Desired Outcomes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#prizes">Prizes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contest-rules">Contest Rules</a></li>
+            <li class="nav-item"><a class="nav-link" href="#how-to-enter">How to Enter</a></li>
+            <li class="nav-item"><a class="nav-link" href="#judging-criteria">Judging Criteria</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education-and-support">Education &amp; Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resources">Tools &amp; Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="#example">Example Entry</a></li>
+            <li class="nav-item"><a class="nav-link" href="#questions-and-feedback">Questions &amp; Feedback</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#winners">Winner</a></li> -->
+            <li class="divider"></li>
+            <li class="nav-item d-flex justify-content-between flex-wrap">
+              <a class="nav-link" href="https://uxdesigncontest.com/contests/ux-design-contest-14.html">← Previous</a>
+              <!-- <a class="nav-link" href="https://uxdesigncontest.com/contests/ux-design-contest-16.html">Next →</a> -->
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-xl-9 col-lg-9 col-md-12" id="right-column">
+        <nav id="top-nav" class="d-flex d-lg-none flex-column flex-sm-row wrapper wrapper--top-nav mg-b-30 justify-content-even">
+          <a class="title-link title-link--alt" href="https://uxdesigncontest.com">
+            <div class="title--small">UX Design
+              <br><span>Contest</span>
+            </div>
+          </a>
+          <div class="top-nav__content">
+            <p class="top-nav__tagline mb-2">❤️ Supporting designers and charities since 2018</p>
+            <div class="d-flex justify-content-between" style="
+    font-size: 1.6rem;">
+              <a class="nav-link" href="https://uxdesigncontest.com/contests/ux-design-contest-14.html">← Previous</a>
+              <!-- <a class="nav-link" href="https://uxdesigncontest.com/contests/ux-design-contest-16.html">Next →</a> -->
+            </div>
+          </div>
+        </nav>
+
+        <section id="current-contest" class="mg-b-30">
+          <div class="wrapper wrapper--md pos-relative contest-intro">
+            <p class="title-alt-1">UX Design Contest #15</p>
+            <h1 class="current-contest">
+              Design a new feature for<br> a site or app you love
+            </h1>
+            <!-- <div class="contest-alert contest-alert--success">
+              <p class="contest-alert__emoji">👏</p>
+              <p>This contest ended Jan 31, 2021</p>
+            </div> -->
+            <div class="contest-alert contest-alert--info">
+              <p class="contest-alert__emoji">🗓</p>
+              <p>Your entry is due Feb 28, 2021 at 11:59pm Pacific</p>
+            </div>
+            <div class="contest-alert contest-alert--info">
+              <p class="contest-alert__emoji">👉</p>
+              <p>For contest updates, <a href="https://twitter.com/UXDcontest" target="_blank">follow @UXDcontest on Twitter</a> 🐦</p>
+            </div>
+            <!-- <li>⏳ Your entry is due in <span id="clockdiv"><span class="days"></span> days</span></li> -->
+            <a class="button" style="max-width: 32rem; margin: 4rem auto 0;padding: 1rem 3rem; text-align: center;" href="https://adamruf.typeform.com/to/YuXLxUIh" target="_blank" style="font-size: 2rem">🤞 Submit Your Entry</a>
+          </div>
+        </section>
+
+        <section id="winners" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Winning Entry</h2>
+            <p class="contest-alert contest-alert--info mg-b-10"><span class="contest-alert__emoji">🏆</span> The winning entry will be announced on Friday, Mar 5, 2021.</p>
+            <figure class="text-center mg-b-25">
+              <div class="d-block img-link" style="border-radius: 0.5rem;">
+                <img style="border: 0.1rem solid rgba(49, 47, 55, 0.2); border-radius: 0.5rem 0.5rem 0 0; width: 100%;" src="https://uxdesigncontest.com/img/contests/winner-placeholder@2x.png" alt="Screenshot placeholder">
+              </div>
+              <figcaption>Your entry could be featured here! 🤞</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section id="note-from-adam" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Note From Adam</h2>
+            <!-- <div class="contest-alert">
+              <p class="contest-alert__emoji">❤️</p>
+              <p>Happy New Year! I hope you're healthy and happy.</p>
+            </div> -->
+            <p class="small"></p>
+            <p>👋 Hi Designers,</p>
+            <p>New month, new contest!</p>
+            <p>This time around, let's show some love for a favorite app or website by designing a new feature that will make it even better.</p>
+            <p>Let's start by putting on our product-thinking caps to identify opportunities for new features that deliver value for users and the business.</p>
+            <p>Follow your heart to pick a feature that you're going to love designing. Remember to follow existing brand and design system guidelines, so your feature feels like a natural extension of the existing experience.</p>
+            <p>To strengthen our feature designs, we'll do some usability testing reps to identify the top 3 opportunities for improvement before tackling at least one of them.</p>
+            <p>Lastly, let's exercise our story-telling skills by writing a concise project case study that highlights the lean process and data-informed design decisions.</p>
+            <p>Happy Designing and Good Luck! 🤞</p>
+            <div style="display: flex; flex-direction: row; align-items: center;">
+              <img class="img--avatar" src="https://adamruf.com/images/adam-ruf-email-signature.png" alt="Adam Ruf's profile photo">
+              <p style="font-size: 1.5rem">
+                <strong>Adam Ruf</strong> <br>Creator, UX Design Contest
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="desired-outcomes" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Desired Outcomes</h2>
+            <p>By participating in this contest, you will</p>
+            <ul class="mg-b-10">
+              <li>Exercise product thinking by designing for users and organizational impact</li>
+              <li>Challenge yourself to design within the constraints of an existing design system</li>
+              <li>Practice building a lean prototype for testing</li>
+              <li>Facilitate usability tests to identify problems</li>
+              <li>Use timeboxes to boost your productivity</li>
+              <li>Grow your portfolio with a real-world project case study</li>
+              <li>Have a chance at winning cool prizes</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="prizes" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Prizes</h2>
+            <h3>🥇 1st Prize</h3>
+            <ul class="mg-b-10">
+              <li>$100 for your favorite charity</li>
+              <li>Video call with <abbr title="UX Design Contest">UXDC</abbr> Creator, <a href="https://adamruf.com" target="_blank">Adam Ruf</a>
+              </li>
+              <li>Your winning entry featured on this page</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="contest-rules" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Contest Rules</h2>
+            <ul class="mg-b-10">
+              <li>Anyone 18 years or older can enter individually or as a team</li>
+              <li>Entries must be original work created for this contest</li>
+              <li>Only entries that meet all contest requirements will be eligible for winning a prize</li>
+              <li>The deadline to submit your entry is Sunday, Feb 28, 2021 at 11:59PM Pacific Time</li>
+              <a href="#" data-toggle="modal" data-target="#contestRules">View full contest rules</a>
+            </ul>
+          </div>
+        </section>
+
+        <section id="how-to-enter" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>How to Enter <br>
+              <span class="small mg-b-25">☝️ Tip: save time with <a href="#resources">Tools &amp; Resources</a></span>
+            </h2>
+            <ol class="mg-b-10">
+              <li>Spend some time with an app or website that you love</li>
+              <li>Identify 2-3 opportunities where new functionality can improve the UX and drive business metrics</li>
+              <li>Pick the feature you're most excited to design</li>
+              <li>Design and build a prototype for testing</li>
+              <li>Run usability tests with 3-5 participants to identify the biggest problems with your feature design</li>
+              <li>Iterate on your design to address the biggest problem with your prototyped feature</li>
+              <li>Tell the story of your project with a concise case study</li>
+              <li>Submit your entry by 11:59pm Pacific Time Sunday, Feb 28, 2021.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="judging-criteria" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Judging Criteria</h2>
+            <table class="mg-b-10" style="width: 100%">
+              <tr>
+                <th>Criteria</th>
+                <th style="text-align: right">Weight</th>
+              </tr>
+              <tr>
+                <td>Product Thinking</td>
+                <td style="text-align: right">20%</td>
+              </tr>
+              <tr>
+                <td>UX/Interaction Design</td>
+                <td style="text-align: right">20%</td>
+              </tr>
+              <tr>
+                <td>Design System Alignment</td>
+                <td style="text-align: right">20%</td>
+              </tr>
+              <tr>
+                <td>Usability Testing</td>
+                <td style="text-align: right">20%</td>
+              </tr>
+              <tr>
+                <td>Case Study</td>
+                <td style="text-align: right">20%</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section id="education-and-support" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Education &amp; Support</h2>
+            <figure class="text-center mg-b-25">
+              <img style="border: 0.1rem solid rgba(49, 47, 55, 0.2); border-radius: 0.5rem; width: 100%;" src="https://uxdesigncontest.com/img/contests/uxdc-live-education-and-support@2x.png" alt="">
+              <!-- <figcaption>Join Design Mentor, Adam Ruf, for live design on YouTube</figcaption> -->
+            </figure>
+            <p class="smalltext">Join Sr. Designer and UXDC Creator, Adam Ruf, on YouTube as he explores practical design topics and demonstrates the process of entering the contest.</p>
+
+            <p style="margin-bottom: 0.5rem;"><a href="https://youtube.com/adamruf-ux-designer" target="_blank">Product Thinking &amp; Microinteractions</a></p>
+            <p class="smalltext mg-b-25">🗓 Tuesday, Feb 9 at 5:45pm PT / 8:45pm ET</p>
+
+            <p style="margin-bottom: 0.5rem;"><a href="https://youtube.com/adamruf-ux-designer" target="_blank">Working with an Existing Design System</a></p>
+            <p class="smalltext mg-b-25">🗓 Thursday, Feb 11 at 5:30pm PT / 8:30pm ET</p>
+
+            <p style="margin-bottom: 0.5rem;"><a href="https://youtube.com/adamruf-ux-designer" target="_blank">Writing & Running Good Usability Tests</a></p>
+            <p class="smalltext mg-b-25">🗓 Tuesday, Feb 16 at 5:45pm PT / 8:45pm ET</p>
+
+            <p style="margin-bottom: 0.5rem;"><a href="https://youtube.com/adamruf-ux-designer" target="_blank">Working Backwards: From Zero to Case Study</a></p>
+            <p class="smalltext mg-b-10">🗓 Thursday, Feb 18 at 5:30pm PT / 8:30pm ET</p>
+          </div>
+        </section>
+
+        <section id="resources" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Tools &amp; Resources</h2>
+            <ul class="list-unstyled">
+              <h3>📚 Books</h3>
+              <li class="mg-b-50">
+                <p style="margin-bottom: 0.5rem"><a href="https://amzn.to/2MzBIiH" target="_blank">Microinteractions: Designing with Details</a></p>
+                <p class="smalltext">From author Dan Saffer. Learn what microinteractions are and discover ways in which you can leverage small details to elevate digital experiences from mediocre to delightful.</p>
+              </li>
+              <h3>🧰 Tools</h3>
+              <h4>High-Fidelity UI Design</h4>
+              <li class="mg-b-25">
+                <p style="margin-bottom: 0.5rem"><a href="https://www.sketch.com/" target="_blank">Sketch</a></p>
+                <p class="smalltext">Vector-based UI design tool built for Mac</p>
+              </li>
+              <li class="mg-b-25">
+                <p style="margin-bottom: 0.5rem"><a href="https://www.figma.com/" target="_blank">Figma</a></p>
+                <p class="smalltext">Web-powered vector-based UI and prototyping design tool</p>
+              </li>
+
+              <h4>Prototyping</h4>
+              <li class="mg-b-25">
+                <p style="margin-bottom: 0.5rem"><a href="https://invisionapp.com" target="_blank">InVision</a></p>
+                <p class="smalltext">Create clickable prototypes for usability testing</p>
+              </li>
+              <li class="mg-b-25">
+                <p style="margin-bottom: 0.5rem"><a href="/" target="_blank">Marvel</a></p>
+                <p class="smalltext">Create clickable prototypes for usability testing</p>
+              </li>
+              <h4>Super-Powered Documents</h4>
+              <li class="mg-b-25">
+                <p style="margin-bottom: 0.5rem"><a href="https://www.notion.so/?r=451407612a5a41cfa9a6bfbe2d9e3569" target="_blank">Notion</a></p>
+                <p class="smalltext">Excellent no-code, document platform<br>
+                  <span class="smalltext font-italic text--subtle">Free $10 credit when you sign up with the link above</span>
+                </p>
+              </li>
+              <li class="mg-b-25">
+                <p style="margin-bottom: 0.5rem"><a href="https://coda.io/?r=Qgoq82wXSjyZUfYvWsBSrw" target="_blank">Coda</a></p>
+                <p class="smalltext">Another excellent no-code, document platform<br>
+                  <span class="smalltext font-italic text--subtle">Free $10 credit when you sign up with the link above</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="example" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Example Entry</h2>
+            <p class="font-italic text--subtle">Coming Soon 👀</p>
+            <p class="smalltext">Watch UXDC creator, Adam Ruf, on <a href="https://youtube.com/adamruf-ux-designer" target="_blank">YouTube</a> as he works on an example entry. See <a href="#education-and-support">Education &amp; Support</a> for scheduled live design sessions.</p>
+          </div>
+        </section>
+
+        <section id="questions-and-feedback" class="mg-b-30">
+          <div class="wrapper wrapper--md">
+            <h2>Questions &amp; Feedback</h2>
+            <p>Tweet your questions to <a href="https://twitter.com/UXDcontest" target="_blank">@UXDcontest</a></p>
+            <p>Tune in to <a href="https://youtube.com/adamruf-ux-designer" target="_blank">weekly live design
+                streams</a> with UXD Contest creator, Adam Ruf
+            </p>
+            <p class="mg-b-10">If you have a suggestion on how to improve future UX Design Contests, please <a href="https://adamruf.typeform.com/to/ZGZC6W" target="_blank">share your feedback</a>.
+            </p>
+          </div>
+        </section>
+
+        <section id="notification-sign-up-bottom" class="mg-b-25">
+          <div class="wrapper wrapper--md">
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+              <form action="//adamruf.us4.list-manage.com/subscribe/post?u=117b96789620e8b84b28d2139&amp;id=edf6526b13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <label for="mce-EMAIL" style="font-size: calc(1.5rem + 1vw);">Never miss a UX design contest</label>
+                  <p>Get an email when a new contest launches</p>
+                  <input type="email" value="" name="EMAIL" class="email mg-b-10" id="mce-EMAIL" placeholder="futurecontestwinner@gmail.com" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_117b96789620e8b84b28d2139_edf6526b13" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Notify Me" name="subscribe" id="mc-embedded-subscribe" class="button button--gray">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>
+        </section>
+
+        <footer class="container-fluid text-center mg-b-50">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="small">&copy;2021 UX Design Contest • <a href="https://twitter.com/uxdcontest" target="_blank">Twitter</a></p>
+            </div>
+          </div>
+        </footer>
+
+        <!-- Start Contest Rules Modal -->
+        <div class="modal fade" id="contestRules" tabindex="-1" role="dialog" aria-labelledby="contestRulesTitle" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="contestRulesTitle">Contest #15 Rules</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>NO PURCHASE IS NECESSARY TO ENTER OR WIN. A PURCHASE WILL NOT INCREASE YOUR CHANCES OF WINNING. ALL FEDERAL, STATE, LOCAL, AND MUNICIPAL LAWS AND REGULATIONS APPLY. VOID WHERE PROHIBITED.</p>
+                <h3>Eligibility</h3>
+                <p>UX Design Contest (the "Contest") is open to individuals or teams of individuals who are at least eighteen (18) years old at the time of entry. Employees of UX Design Contest and other companies associated with the promotion of the Contest, and their respective parents, subsidiaries, affiliates and advertising and promotion agencies as well as the immediate family (spouse, parents, siblings, and children) and household members of each such employee are not eligible. The Contest is subject to federal, state, and local laws and regulations.</p>
+                <h3>Sponsor</h3>
+                <p>The Contest is sponsored by UX Design Contest, located at <a href="https://uxdesigncontest.com">https://uxdesigncontest.com</a></p>
+                <h3>Agreement to Official Rules</h3>
+                <p>Participation in the Contest constitutes entrant's full and unconditional agreement to and acceptance of these Official Rules and the decisions of the Sponsor, which are final and binding. Winning a prize is contingent upon being compliant with these Official Rules and fulfilling all other requirements set forth herein.</p>
+                <h3>Contest Period</h3>
+                <p> The Contest begins on February 6, 2021 at 6:00 AM Pacific and ends on February 28, 2021 at 11:59 PM Pacific (the "Contest Period"). Entries that are submitted before or after the Contest Period will be disqualified. Submissions will be accepted for the duration of the Contest.</p>
+                <h3>How to Enter</h3>
+                <p>The Contest must be entered by submitting an entry using the online form provided at <a href="https://uxdesigncontest.com/contests/ux-design-contest-15.html">https://uxdesigncontest.com/contests/ux-design-contest-15.html</a>. The entry must fulfill all Contest requirements, as specified, to be eligible to win any prizes. Entries that are incomplete or do not adhere to the rules or specifications may be disqualified at the sole discretion of Sponsor.</p>
+                <p> Limit one (1 ) entry per person or team, per email address, and per household for the duration of the Contest Period. Entries received from any person, e-mail address, or household in excess of the stated limitation will be void. All entries become the property of Sponsor and will not be acknowledged or returned. </p>
+                <h3>Winning Entry Selection</h3>
+                <p> On or about March 5,2021, the Sponsor will review and select one potential winning entry from among all eligible entries received. The odds of being selected depend on the number of entries received. The Sponsor will attempt to notify the potential winner via email on or about March 5, 2021. </p>
+                <h3>Winner Notification</h3>
+                <p> The potential winners will be notified by email. Each potential First Prize winner will be required to complete, electronically sign, and submit a Declaration of Compliance within five (5) days of the date notice or attempted notice is sent, in order to claim their prize. If a potential winner cannot be contacted, or fails to submit the Declaration of Compliance within the required time period (if applicable), or prize is returned as undeliverable, the potential winner forfeits their prize. If the potential winner is at least 18 but still considered a minor in their jurisdiction of residence, Sponsor reserves the right to award the prize in the name of his her parent or legal guardian, who will be required to sign the Declaration of Compliance on the potential winners behalf and fulfill any other requirements imposed on winner set forth herein. Potential winners must continue to comply with all terms and conditions of these Official Rules, and winning is contingent upon fulfilling all requirements. In the event that a potential winner is disqualified for any reason, Sponsor will award the applicable prize to an alternate winner from among all remaining eligible entries. Only three (3) alternate winner selections will be made, after which the prize will remain un-awarded. Prizes will be fulfilled approximately 2-4 weeks after the conclusion of the Contest. </p>
+                <h3>Prizes</h3>
+                <ul>
+                  <li>$100 donation towards your charity (must support online donation)</li>
+                  <li>Video call with UXDC Creator, Adam Ruf</li>
+                  <li>Contest submission featured on sponsor's website and social media channels</li>
+                </ul>
+                <h3>General Conditions</h3>
+                <p> In the event that the operation, security, or administration of the Contest is impaired in any way for any reason, including, but not limited to fraud, virus, bug, worm, unauthorized human intervention or other technical problem, or in the event the Contest is unable to run as planned for any other reason, as determined by Sponsor in its sole discretion, the Sponsor may, in its sole discretion, either (a) suspend the Contest to address the impairment and then resume the Contest in a manner that best conforms to the spirit of these Official Rules or (b) terminate the Contest and, in the event of termination, award the prize at random from among the eligible, non-suspect entries received up to the time of the impairment. The Sponsor reserves the right in its sole discretion to disqualify any individual it finds to be tampering with the entry process or the operation of the Contest or to be acting in violation of these Official Rules or in an unsportsmanlike or disruptive manner. Any attempt by any person to damage the website or undermine the legitimate operation of the Contest may be a violation of criminal and civil law, and, should such an attempt be made, the Sponsor reserves the right to seek damages (including attorney's fees) and any other remedies from any such person to the fullest extent permitted by law. Failure by the Sponsor to enforce any provision of these Official Rules shall not constitute a waiver of that provision. </p>
+                <h3>Release and Limitations of Liability</h3>
+                <p> By participating in the Contest, entrants agree to release and hold harmless the Sponsor, and each of their respective parents, subsidiaries, affiliates, advertising and promotion agencies, other companies associated with the Contest, and each of their respective officers, directors, employees, shareholders, representatives, and agents (the Released Parties) from and against any claim or cause of action arising out of participation in the Contest or receipt or use of the prize (including any travel or activity related thereto), including, but not limited to: (a) any technical errors associated with the Contest, including lost, interrupted or unavailable Internet Service Provider (ISP), network, server, wireless service provider, or other connections, availability or accessibility or miscommunications or failed computer, satellite, telephone, cellular tower or cable transmissions, lines, or technical failure or jumbled, scrambled, delayed, or misdirected transmissions or computer hardware or software malfunctions, failures or difficulties; (b) unauthorized human intervention in the Contest; (c) mechanical, network, electronic, computer, human, printing or typographical errors; (d) application downloads, (c) any other errors or problems in connection with the Contest, including, without limitation, errors that may occur in the administration of the Contest, the announcement of the winner, the cancellation or postponement of the event and/or the flyover, if applicable, the incorrect downloading of the application, the processing of entries application downloads or in any Contest-related materials; or (f) injury, death, losses or damages of any kind, to persons or property which may be caused, directly or indirectly, in whole or in part, from entrants participation in the Contest or acceptance, receipt or misuse of the prize (including any travel or activity related thereto). Entrant further agrees that in any cause of action, the Released Parties liability will be limited to the cost of entering and participating in the Contest, and in no event shall the entrant be entitled to receive attorney's fees. Released Parties are also not responsible for any incorrect or inaccurate information, whether caused by site users, tampering, hacking, or by any equipment or programming associated with or utilized in the Contest. Entrant waives the right to claim any damages whatsoever, including, but not limited to, punitive, consequential, direct, or indirect damages. </p>
+                <h3>Disputes</h3>
+                <p> Except where prohibited, each entrant agrees that any and all disputes, claims and causes of action arising out of, or connected with, the Contest or any prize awarded shall be resolved individually, without resort to any form of class action, and exclusively by the appropriate court located in California. All issues and questions concerning the construction, validity, interpretation and enforceability of these Official Rules, entrants rights and obligations, or the rights and obligations of the Sponsor in connection with the Contest, shall be governed by, and construed in accordance with, the laws of California, without giving effect to any choice of law or conflict of law rules, which would cause the application of the laws of any jurisdiction other than California. </p>
+                <h3>Privacy</h3>
+                <p>Information collected from entrants is subject to sponsor's privacy policy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Contest Rules Modal -->
+      </div><!-- End right-column -->
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+  <script src="/js/min/scripts-min.js"></script>
+</body>
+
+</html>
