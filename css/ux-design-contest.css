@@ -28,6 +28,7 @@ h2 {
   font-weight: 700; }
 
 .current-contest {
+  font-family: "Roboto Slab";
   font-weight: bold;
   padding-top: 0; }
 
@@ -377,11 +378,13 @@ figcaption {
       transition: all 0.2s ease-in-out; }
 
 .title-alt-1 {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
   color: #77767b;
   display: block;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.8rem;
   text-transform: uppercase; }
 
 abbr {
@@ -415,7 +418,8 @@ abbr {
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
   margin: 0 auto;
   padding: 5rem;
-  text-align: left; }
+  text-align: left;
+  }
   .wrapper p:last-child,
   .wrapper li:last-child {
     margin-bottom: 0; }
