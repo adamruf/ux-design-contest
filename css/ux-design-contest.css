@@ -759,6 +759,9 @@ td {
     margin-bottom: 10rem !important; }
   .mg-b-400 {
     margin-bottom: 15rem !important; }
+  section {
+    margin-top: -5rem !important;
+    padding-top: 5rem !important; }
   .shapes-group-1 {
     left: 0; }
   .shapes-group-2 {
@@ -783,9 +786,6 @@ td {
     font-size: 2.5rem; }
   h2 {
     font-size: 2.25rem; }
-  section {
-    margin-top: -5rem;
-    padding-top: 5rem; }
   h3 {
     font-size: 2rem; }
   th,
