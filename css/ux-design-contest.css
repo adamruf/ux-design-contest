@@ -16,6 +16,10 @@ body {
   font-size: 1.8rem;
   line-height: 1.55; }
 
+section {
+  margin-top: -9rem;
+  padding-top: 9rem; }
+
 h1 {
   font-size: 4rem;
   line-height: 1.125;
@@ -759,9 +763,6 @@ td {
     margin-bottom: 10rem !important; }
   .mg-b-400 {
     margin-bottom: 15rem !important; }
-  section {
-    margin-top: -5rem !important;
-    padding-top: 5rem !important; }
   .shapes-group-1 {
     left: 0; }
   .shapes-group-2 {
