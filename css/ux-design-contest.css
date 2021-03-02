@@ -258,7 +258,7 @@ figcaption {
   border: 0.1rem solid rgba(49, 47, 55, 0.2);
   border-radius: 4rem;
   box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.05);
-  color: #312F37;
+  color: #312f37;
   display: block;
   font-size: 2rem;
   font-weight: bold;
@@ -267,6 +267,7 @@ figcaption {
     animation: none;
     background-color: #b3faff;
     border-color: rgba(49, 47, 55, 0.2);
+    color: #312f37;
     text-decoration: none; }
   .button:active {
     box-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.16);
