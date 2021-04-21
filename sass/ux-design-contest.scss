@@ -305,6 +305,7 @@ input.email:focus {
 }
 
 .img-link {
+	background-color: $lighter-gray;
 	border: none;
 	position: relative;
 	transition: all 0.2s ease-in-out;
@@ -340,7 +341,7 @@ input.email:focus {
 figcaption {
 	background-color: #fafafa;
 	border: 0.1rem solid rgba(49, 47, 55, 0.2);
-	border-radius: 0 0 0.5rem 0.5rem;
+	border-radius: 0 0 0.8rem 0.8rem;
 	border-top: none;
 	color: $light-gray;
 	font-size: 1.4rem;
@@ -620,7 +621,7 @@ abbr {
 .wrapper {
 	background: white;
 	border: 0.1rem solid rgba(49, 47, 55, 0.2);
-	border-radius: 0.5rem;
+	border-radius: 0.8rem;
 	box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
 	margin: 0 auto;
 
@@ -803,7 +804,7 @@ td {
 	align-items: center;
 	background: $off-white;
 	border-left: 1rem solid $light-gray;
-	border-radius: 0.5rem;
+	border-radius: 0.8rem;
 	display: flex;
 	font-size: 1.8rem;
 	line-height: 1.25;
@@ -885,7 +886,7 @@ td {
 .charity__link {
 	align-items: center;
 	border-bottom: none;
-	border-radius: 0.5rem;
+	border-radius: 0.8rem;
 	color: $black;
 	display: flex;
 	flex-wrap: wrap;
@@ -895,7 +896,7 @@ td {
 
 .charity__img {
 	border: 1px solid $lighter-gray;
-	border-radius: 0.5rem;
+	border-radius: 0.8rem;
 	margin-right: 2rem;
 
 	// min-height: 100px;
@@ -918,7 +919,7 @@ td {
 .modal-content {
 	background: white;
 	border: 0.1rem solid rgba(49, 47, 55, 0.2);
-	border-radius: 0.5rem;
+	border-radius: 0.8rem;
 	box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
 }
 

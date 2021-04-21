@@ -208,6 +208,7 @@ input.email:focus {
   padding: 0.5rem 1rem; }
 
 .img-link {
+  background-color: rgba(49, 47, 55, 0.2);
   border: none;
   position: relative;
   transition: all 0.2s ease-in-out;
@@ -234,7 +235,7 @@ input.email:focus {
 figcaption {
   background-color: #fafafa;
   border: 0.1rem solid rgba(49, 47, 55, 0.2);
-  border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0 0 0.8rem 0.8rem;
   border-top: none;
   color: #77767b;
   font-size: 1.4rem;
@@ -443,7 +444,7 @@ abbr {
 .wrapper {
   background: white;
   border: 0.1rem solid rgba(49, 47, 55, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025);
   margin: 0 auto;
   padding: 5rem;
@@ -575,7 +576,7 @@ td {
   align-items: center;
   background: #FAFAFA;
   border-left: 1rem solid #77767b;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   display: flex;
   font-size: 1.8rem;
   line-height: 1.25;
@@ -639,7 +640,7 @@ td {
 .charity__link {
   align-items: center;
   border-bottom: none;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   color: #312f37;
   display: flex;
   flex-wrap: wrap;
@@ -648,7 +649,7 @@ td {
 
 .charity__img {
   border: 1px solid rgba(49, 47, 55, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   margin-right: 2rem;
   height: 100px;
   width: 100px; }
@@ -663,7 +664,7 @@ td {
 .modal-content {
   background: white;
   border: 0.1rem solid rgba(49, 47, 55, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.025); }
 
 .modal-header,
