@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,7 +7,7 @@
 		"uuidString": "17F815DA-4D68-47BA-A1E4-526BD7A6401E"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "33081",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -15,6 +15,30 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/.vscode/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.vscode/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/about.html",
+		"oF": 0
+		},
+	"/charity.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/charity.html",
 		"oF": 0
 		},
 	"/CNAME": {
@@ -47,6 +71,46 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/contests/ux-design-contest-11.html",
+		"oF": 0
+		},
+	"/contests/ux-design-contest-12.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/contests/ux-design-contest-12.html",
+		"oF": 0
+		},
+	"/contests/ux-design-contest-13.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/contests/ux-design-contest-13.html",
+		"oF": 0
+		},
+	"/contests/ux-design-contest-14.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/contests/ux-design-contest-14.html",
+		"oF": 0
+		},
+	"/contests/ux-design-contest-15.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/contests/ux-design-contest-15.html",
+		"oF": 0
+		},
+	"/contests/ux-design-contest-16.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/contests/ux-design-contest-16.html",
 		"oF": 0
 		},
 	"/contests/ux-design-contest-2.html": {
@@ -113,6 +177,16 @@
 		"oAP": "/contests/ux-design-contest-9.html",
 		"oF": 0
 		},
+	"/css/ux-design-contest--OLD.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/ux-design-contest--OLD-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/ux-design-contest.css": {
 		"aP": 1,
 		"bl": 0,
@@ -129,7 +203,9 @@
 		"oA": 0,
 		"oAP": "/img/animated-confetti-bg-tile.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/img/banner-ux-design-contest@2x.png": {
 		"ft": 32768,
@@ -140,7 +216,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/blue-circle@2x.png": {
 		"ft": 32768,
@@ -151,7 +229,113 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/breast-cancer-research-foundation@2x.png": {
+		"ft": 32768,
+		"iS": 9953,
+		"oA": 0,
+		"oAP": "/img/charities/breast-cancer-research-foundation@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/doctors-without-borders@2x.png": {
+		"ft": 32768,
+		"iS": 18343,
+		"oA": 0,
+		"oAP": "/img/charities/doctors-without-borders@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/garden-for-the-environment@2x.png": {
+		"ft": 32768,
+		"iS": 6586,
+		"oA": 0,
+		"oAP": "/img/charities/garden-for-the-environment@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/girls-who-code@2x.png": {
+		"ft": 32768,
+		"iS": 3622,
+		"oA": 0,
+		"oAP": "/img/charities/girls-who-code@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/islamic-relief-usa@2x.png": {
+		"ft": 32768,
+		"iS": 11301,
+		"oA": 0,
+		"oAP": "/img/charities/islamic-relief-usa@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/make-a-wish@2x.png": {
+		"ft": 32768,
+		"iS": 5111,
+		"oA": 0,
+		"oAP": "/img/charities/make-a-wish@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/pratham-usa@2x.png": {
+		"ft": 32768,
+		"iS": 9983,
+		"oA": 0,
+		"oAP": "/img/charities/pratham-usa@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/charities/royal-national-lifeboat-institution@2x.png": {
+		"ft": 32768,
+		"iS": 4850,
+		"oA": 0,
+		"oAP": "/img/charities/royal-national-lifeboat-institution@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/color-wave@2x.png": {
 		"ft": 32768,
@@ -162,18 +346,22 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/confetti-bg-tile.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 17451,
 		"oA": 0,
 		"oAP": "/img/confetti-bg-tile.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/confetti-bg-tile@2x.png": {
 		"ft": 32768,
@@ -184,7 +372,367 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contest-12-winner-case-study.png": {
+		"ft": 32768,
+		"iS": 2649168,
+		"oA": 0,
+		"oAP": "/img/contest-12-winner-case-study.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contest-13-solo-winner-case-study@2x.png": {
+		"ft": 32768,
+		"iS": 1974464,
+		"oA": 0,
+		"oAP": "/img/contest-13-solo-winner-case-study@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contest-13-team-winner-case-study@2x.png": {
+		"ft": 32768,
+		"iS": 539357,
+		"oA": 0,
+		"oAP": "/img/contest-13-team-winner-case-study@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-01.png": {
+		"ft": 32768,
+		"iS": 375139,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-01@2x.png": {
+		"ft": 32768,
+		"iS": 571053,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-01@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-02.png": {
+		"ft": 32768,
+		"iS": 378037,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-02@2x.png": {
+		"ft": 32768,
+		"iS": 577595,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-02@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-03.png": {
+		"ft": 32768,
+		"iS": 375560,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-03@2x.png": {
+		"ft": 32768,
+		"iS": 572544,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-03@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-04.png": {
+		"ft": 32768,
+		"iS": 382161,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-event-04@2x.png": {
+		"ft": 32768,
+		"iS": 585562,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-event-04@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-honorable-mention.png": {
+		"ft": 32768,
+		"iS": 265212,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-honorable-mention.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-honorable-mention@2x.png": {
+		"ft": 32768,
+		"iS": 798967,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-honorable-mention@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-winning-entry.png": {
+		"ft": 32768,
+		"iS": 357127,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-winning-entry.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/15/uxdc-15-winning-entry@2x.png": {
+		"ft": 32768,
+		"iS": 1146162,
+		"oA": 0,
+		"oAP": "/img/contests/15/uxdc-15-winning-entry@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/16/1st-place-entry.jpg": {
+		"ft": 16384,
+		"iS": 479885,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contests/16/1st-place-entry.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/16/1st-place-entry.png": {
+		"ft": 32768,
+		"iS": 790658,
+		"oA": 0,
+		"oAP": "/img/contests/16/1st-place-entry.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/16/2nd-place-entry.png": {
+		"ft": 32768,
+		"iS": 276796,
+		"oA": 0,
+		"oAP": "/img/contests/16/2nd-place-entry.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/16/3rd-place-entry.png": {
+		"ft": 32768,
+		"iS": 586297,
+		"oA": 0,
+		"oAP": "/img/contests/16/3rd-place-entry.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/plant-jammer-current-ux-01.gif": {
+		"ft": 4194304,
+		"iS": 1496837,
+		"oA": 0,
+		"oAP": "/img/contests/plant-jammer-current-ux-01.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/img/contests/plant-jammer-current-ux.gif": {
+		"ft": 4194304,
+		"iS": 938347,
+		"oA": 0,
+		"oAP": "/img/contests/plant-jammer-current-ux.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/img/contests/uxdc-15-thumbnail.png": {
+		"ft": 32768,
+		"iS": 7504,
+		"oA": 0,
+		"oAP": "/img/contests/uxdc-15-thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/uxdc-15-thumbnail@2x.png": {
+		"ft": 32768,
+		"iS": 17511,
+		"oA": 0,
+		"oAP": "/img/contests/uxdc-15-thumbnail@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/uxdc-16-thumbnail@2x.png": {
+		"ft": 32768,
+		"iS": 8065,
+		"oA": 0,
+		"oAP": "/img/contests/uxdc-16-thumbnail@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/uxdc-live-education-and-support.png": {
+		"ft": 32768,
+		"iS": 488104,
+		"oA": 0,
+		"oAP": "/img/contests/uxdc-live-education-and-support.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/uxdc-live-education-and-support@2x.png": {
+		"ft": 32768,
+		"iS": 742712,
+		"oA": 0,
+		"oAP": "/img/contests/uxdc-live-education-and-support@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/winner-placeholder.png": {
+		"ft": 32768,
+		"iS": 57397,
+		"oA": 0,
+		"oAP": "/img/contests/winner-placeholder.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/winner-placeholder@2x.png": {
+		"ft": 32768,
+		"iS": 151952,
+		"oA": 0,
+		"oAP": "/img/contests/winner-placeholder@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/custom-border.png": {
 		"ft": 32768,
@@ -195,7 +743,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/custom-border@2x.png": {
 		"ft": 32768,
@@ -206,7 +756,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/favicon.png": {
 		"ft": 32768,
@@ -217,7 +769,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/footer-twitch-plug@2x.png": {
 		"ft": 32768,
@@ -228,7 +782,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/green-triangle@2x.png": {
 		"ft": 32768,
@@ -239,7 +795,19 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/intro-animation-2020-update.gif": {
+		"ft": 4194304,
+		"iS": 77382,
+		"oA": 0,
+		"oAP": "/img/intro-animation-2020-update.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/img/intro-animation-v2@2x.gif": {
 		"ft": 4194304,
@@ -247,7 +815,9 @@
 		"oA": 0,
 		"oAP": "/img/intro-animation-v2@2x.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/img/intro-animation@2x.gif": {
 		"ft": 4194304,
@@ -255,7 +825,9 @@
 		"oA": 0,
 		"oAP": "/img/intro-animation@2x.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/img/mailchimp-sign-up-form-graphic@2x.png": {
 		"ft": 32768,
@@ -266,7 +838,87 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/peeps-twitter-card-img.png": {
+		"ft": 32768,
+		"iS": 214408,
+		"oA": 0,
+		"oAP": "/img/peeps-twitter-card-img.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/peeps-ux-design-contest-intro-illustration--hover.png": {
+		"ft": 32768,
+		"iS": 38903,
+		"oA": 0,
+		"oAP": "/img/peeps-ux-design-contest-intro-illustration--hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/peeps-ux-design-contest-intro-illustration--hover@2x.png": {
+		"ft": 32768,
+		"iS": 87353,
+		"oA": 0,
+		"oAP": "/img/peeps-ux-design-contest-intro-illustration--hover@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/peeps-ux-design-contest-intro-illustration.png": {
+		"ft": 32768,
+		"iS": 21308,
+		"oA": 0,
+		"oAP": "/img/peeps-ux-design-contest-intro-illustration.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/peeps-ux-design-contest-intro-illustration@2x.png": {
+		"ft": 32768,
+		"iS": 50247,
+		"oA": 0,
+		"oAP": "/img/peeps-ux-design-contest-intro-illustration@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/peeps-uxd-contest-twitter-banner-pic@2x.png": {
+		"ft": 32768,
+		"iS": 284945,
+		"oA": 0,
+		"oAP": "/img/peeps-uxd-contest-twitter-banner-pic@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/red-square@2x.png": {
 		"ft": 32768,
@@ -277,7 +929,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/shapes-group-1@2x.png": {
 		"ft": 32768,
@@ -288,7 +942,9 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/shapes-group-2@2x.png": {
 		"ft": 32768,
@@ -299,7 +955,22 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/small-trophy-banner@2x.png": {
+		"ft": 32768,
+		"iS": 41638,
+		"oA": 0,
+		"oAP": "/img/small-trophy-banner@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/sponsors/sponsor-logos.sketch": {
 		"cB": 0,
@@ -319,16 +990,174 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/img/testimonial--andrew.png": {
+		"ft": 32768,
+		"iS": 18638,
+		"oA": 0,
+		"oAP": "/img/testimonial--andrew.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/testimonial--pablo.png": {
+		"ft": 32768,
+		"iS": 17955,
+		"oA": 0,
+		"oAP": "/img/testimonial--pablo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/testimonial--pavel.png": {
+		"ft": 32768,
+		"iS": 22567,
+		"oA": 0,
+		"oAP": "/img/testimonial--pavel.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/twitter-card-img.png": {
 		"ft": 32768,
 		"iS": 61693,
 		"oA": 0,
 		"oAP": "/img/twitter-card-img.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-intro-illustration--hover.png": {
+		"ft": 32768,
+		"iS": 51205,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-intro-illustration--hover.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-intro-illustration--hover@2x.png": {
+		"ft": 32768,
+		"iS": 116662,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-intro-illustration--hover@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-intro-illustration.png": {
+		"ft": 32768,
+		"iS": 20685,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-intro-illustration.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-intro-illustration@2x.png": {
+		"ft": 32768,
+		"iS": 51621,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-intro-illustration@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-linkedin-company-cover-image@2x.png": {
+		"ft": 32768,
+		"iS": 242916,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-linkedin-company-cover-image@2x.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-linkedin-company-profile.png": {
+		"ft": 32768,
+		"iS": 38149,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-linkedin-company-profile.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-trophy-banner.png": {
+		"ft": 32768,
+		"iS": 51746,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-trophy-banner.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest-trophy-banner@2x.png": {
+		"ft": 32768,
+		"iS": 142080,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest-trophy-banner@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/ux-design-contest@2x.png": {
+		"ft": 32768,
+		"iS": 316192,
+		"oA": 0,
+		"oAP": "/img/ux-design-contest@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/ux-trophy@2x.png": {
 		"ft": 32768,
@@ -339,40 +1168,175 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/img/uxd-contest-twitter-banner-pic.png": {
+	"/img/uxdc-13-winner-placeholder@2x.png": {
 		"ft": 32768,
-		"iS": 48289,
+		"iS": 216100,
 		"oA": 0,
-		"oAP": "/img/uxd-contest-twitter-banner-pic.png",
+		"oAP": "/img/uxdc-13-winner-placeholder@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/img/uxd-contest-twitter-banner-pic@2x.png": {
+	"/img/uxdc-14-example-entry@2x.png": {
 		"ft": 32768,
-		"iS": 114587,
+		"iS": 4429470,
 		"oA": 0,
-		"oAP": "/img/uxd-contest-twitter-banner-pic@2x.png",
+		"oAP": "/img/uxdc-14-example-entry@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/img/uxd-contest-twitter-profile-pic.png": {
+	"/img/uxdc-14-winning-entry@2x.png": {
 		"ft": 32768,
-		"iS": 10069,
+		"iS": 994016,
 		"oA": 0,
-		"oAP": "/img/uxd-contest-twitter-profile-pic.png",
+		"oAP": "/img/uxdc-14-winning-entry@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/uxdc-16-og-img@2x.png": {
+		"ft": 32768,
+		"iS": 282211,
+		"oA": 0,
+		"oAP": "/img/uxdc-16-og-img@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/uxdc12-winner-post@2x.png": {
+		"ft": 32768,
+		"iS": 212119,
+		"oA": 0,
+		"oAP": "/img/uxdc12-winner-post@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/volunteer--lisa-timanova.png": {
+		"ft": 32768,
+		"iS": 18815,
+		"oA": 0,
+		"oAP": "/img/volunteer--lisa-timanova.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/whos-it-for.gif": {
+		"ft": 4194304,
+		"iS": 4329,
+		"oA": 0,
+		"oAP": "/img/whos-it-for.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/img/winner--hrittika-bhowmick.png": {
+		"ft": 32768,
+		"iS": 14746,
+		"oA": 0,
+		"oAP": "/img/winner--hrittika-bhowmick.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/winner--niharika-indavara.png": {
+		"ft": 32768,
+		"iS": 17995,
+		"oA": 0,
+		"oAP": "/img/winner--niharika-indavara.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/winner--nik-ortheil.png": {
+		"ft": 32768,
+		"iS": 12693,
+		"oA": 0,
+		"oAP": "/img/winner--nik-ortheil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/winner-placeholder--blue.png": {
+		"ft": 32768,
+		"iS": 12849,
+		"oA": 0,
+		"oAP": "/img/winner-placeholder--blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/winner-placeholder--red.png": {
+		"ft": 32768,
+		"iS": 14975,
+		"oA": 0,
+		"oAP": "/img/winner-placeholder--red.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/winner-placeholder--yellow.png": {
+		"ft": 32768,
+		"iS": 14683,
+		"oA": 0,
+		"oAP": "/img/winner-placeholder--yellow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/y-u-no-enter-contest-6.png": {
 		"ft": 32768,
@@ -383,7 +1347,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/index.html": {
 		"cB": 0,
@@ -405,7 +1371,7 @@
 		"tS": 0
 		},
 	"/js/scripts.js": {
-		"bF": 0,
+		"bF": 2,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -413,7 +1379,7 @@
 		"oAP": "/js/min/scripts-min.js",
 		"oF": 0,
 		"sC": 1,
-		"tS": 0
+		"tS": 1
 		},
 	"/README.md": {
 		"cB": 0,
@@ -438,32 +1404,48 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/ux-design-contest--OLD.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/sass/ux-design-contest.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/ux-design-contest.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
+		},
+	"/sponsors.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/sponsors.html",
+		"oF": 0
 		},
 	"/staging": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/staging",
+		"oF": 0
+		},
+	"/volunteers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/volunteers.html",
 		"oF": 0
 		}
 	},
@@ -911,6 +1893,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -948,8 +1931,7 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"block-spacing": {
 			"active": 0,
@@ -1004,16 +1986,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"default-case-last": {
+			"active": 0
+			},
+		"default-param-last": {
+			"active": 0
 			},
 		"dot-location": {
 			"active": 0,
@@ -1032,8 +2018,7 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -1064,12 +2049,14 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
+			"active": 0
+			},
+		"grouped-accessor-pairs": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -1184,44 +2171,35 @@
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-array-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-async-promise-executor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-caller": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-case-declarations": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-class-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -1236,116 +2214,101 @@
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0
+			},
 		"no-continue": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-control-regex": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-debugger": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-delete-var": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-div-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-dupe-args": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-dupe-else-if": {
+			"active": 1
 			},
 		"no-dupe-keys": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-eq-null": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extra-labels": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-parens": {
 			"active": 0,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-fallthrough": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-floating-decimal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-func-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-global-assign": {
 			"active": 1,
@@ -1356,16 +2319,16 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-implied-eval": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-import-assign": {
+			"active": 1
 			},
 		"no-inline-comments": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -1384,36 +2347,33 @@
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-label-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-lonely-if": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loop-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-loss-of-precision": {
+			"active": 0
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -1428,108 +2388,95 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-nested-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-object": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-symbol": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-new-wrappers": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-obj-calls": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-process-exit": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-promise-executor-return": {
+			"active": 0
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-prototype-builtins": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -1548,36 +2495,33 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-script-url": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sequences": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-setter-return": {
+			"active": 1
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sparse-arrays": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sync": {
 			"active": 0,
@@ -1588,20 +2532,16 @@
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-this-before-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-throw-literal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -1612,36 +2552,34 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-undefined": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-underscore-dangle": {
 			"active": 0,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-unreachable-loop": {
+			"active": 0,
+			"optionString": "{'ignore': []}"
 			},
 		"no-unsafe-finally": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unsafe-negation": {
 			"active": 1,
@@ -1652,8 +2590,7 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -1663,41 +2600,37 @@
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
+		"no-useless-backreference": {
+			"active": 0
+			},
 		"no-useless-call": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-catch": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-void": {
 			"active": 0,
@@ -1708,12 +2641,10 @@
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-with": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -1760,8 +2691,7 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-const": {
 			"active": 0,
@@ -1771,33 +2701,33 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-exponentiation-operator": {
+			"active": 0
+			},
 		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-object-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
+		"prefer-regex-literals": {
+			"active": 0
+			},
 		"prefer-rest-params": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-template": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"quote-props": {
 			"active": 0,
@@ -1812,24 +2742,20 @@
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-yield": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -1892,8 +2818,7 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -1920,16 +2845,14 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -2324,7 +3247,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -2350,7 +3275,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2395,7 +3322,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -2443,7 +3369,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2464,13 +3392,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
@@ -2535,6 +3463,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /staging",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
@@ -2841,6 +3772,8 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
+	"webpPresets": {
+		},
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
