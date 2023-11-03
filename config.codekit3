@@ -581,7 +581,7 @@
 		},
 	"/img/contests/16/1st-place-entry.jpg": {
 		"ft": 16384,
-		"iS": 587375,
+		"iS": 479885,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/contests/16/1st-place-entry.jpg",
@@ -675,6 +675,19 @@
 		"iS": 4271904,
 		"oA": 0,
 		"oAP": "/img/contests/17/cover-option-d.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/7/cover-option-a.png": {
+		"ft": 32768,
+		"iS": 2554585,
+		"oA": 0,
+		"oAP": "/img/contests/7/cover-option-a.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
