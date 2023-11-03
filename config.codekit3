@@ -113,6 +113,14 @@
 		"oAP": "/contests/ux-design-contest-16.html",
 		"oF": 0
 		},
+	"/contests/ux-design-contest-17.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/contests/ux-design-contest-17.html",
+		"oF": 0
+		},
 	"/contests/ux-design-contest-2.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -615,6 +623,32 @@
 		"iS": 586297,
 		"oA": 0,
 		"oAP": "/img/contests/16/3rd-place-entry.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/17/contest-17-cover-option-A.png": {
+		"ft": 32768,
+		"iS": 1849711,
+		"oA": 0,
+		"oAP": "/img/contests/17/contest-17-cover-option-A.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/17/contest-17-cover-option-b.png": {
+		"ft": 32768,
+		"iS": 2626723,
+		"oA": 0,
+		"oAP": "/img/contests/17/contest-17-cover-option-b.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
