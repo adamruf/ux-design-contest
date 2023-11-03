@@ -581,7 +581,7 @@
 		},
 	"/img/contests/16/1st-place-entry.jpg": {
 		"ft": 16384,
-		"iS": 587375,
+		"iS": 479885,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/contests/16/1st-place-entry.jpg",
@@ -631,11 +631,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/img/contests/17/contest-17-cover-option-A.png": {
+	"/img/contests/17/contest-17-cover-option-a.png": {
 		"ft": 32768,
 		"iS": 1849711,
 		"oA": 0,
-		"oAP": "/img/contests/17/contest-17-cover-option-A.png",
+		"oAP": "/img/contests/17/contest-17-cover-option-a.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -649,6 +649,32 @@
 		"iS": 2626723,
 		"oA": 0,
 		"oAP": "/img/contests/17/contest-17-cover-option-b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/17/cover-option-c.png": {
+		"ft": 32768,
+		"iS": 3444684,
+		"oA": 0,
+		"oAP": "/img/contests/17/cover-option-c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/17/cover-option-d.png": {
+		"ft": 32768,
+		"iS": 4271904,
+		"oA": 0,
+		"oAP": "/img/contests/17/cover-option-d.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
