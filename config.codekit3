@@ -631,11 +631,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/img/contests/17/contest-17-cover-option-a.png": {
+	"/img/contests/17/cover-option-a.png": {
 		"ft": 32768,
 		"iS": 1849711,
 		"oA": 0,
-		"oAP": "/img/contests/17/contest-17-cover-option-a.png",
+		"oAP": "/img/contests/17/cover-option-a.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -644,11 +644,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/img/contests/17/contest-17-cover-option-b.png": {
+	"/img/contests/17/cover-option-b.png": {
 		"ft": 32768,
 		"iS": 2626723,
 		"oA": 0,
-		"oAP": "/img/contests/17/contest-17-cover-option-b.png",
+		"oAP": "/img/contests/17/cover-option-b.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
