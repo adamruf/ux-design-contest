@@ -722,6 +722,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/contests/9/cover-option-a.png~bak.png": {
+		"ft": 32768,
+		"iS": 3249808,
+		"oA": 0,
+		"oAP": "/img/contests/9/cover-option-a.png~bak.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/contests/plant-jammer-current-ux-01.gif": {
 		"ft": 4194304,
 		"iS": 1496837,
