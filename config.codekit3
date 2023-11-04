@@ -205,19 +205,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/img/8/cover-option-a.png": {
-		"ft": 32768,
-		"iS": 2890449,
-		"oA": 0,
-		"oAP": "/img/8/cover-option-a.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
 	"/img/animated-confetti-bg-tile.gif": {
 		"ft": 4194304,
 		"iS": 46394,
@@ -594,7 +581,7 @@
 		},
 	"/img/contests/16/1st-place-entry.jpg": {
 		"ft": 16384,
-		"iS": 587375,
+		"iS": 479885,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/contests/16/1st-place-entry.jpg",
@@ -701,6 +688,19 @@
 		"iS": 2554585,
 		"oA": 0,
 		"oAP": "/img/contests/7/cover-option-a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/8/cover-option-a.png": {
+		"ft": 32768,
+		"iS": 2890449,
+		"oA": 0,
+		"oAP": "/img/contests/8/cover-option-a.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
