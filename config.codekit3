@@ -423,6 +423,32 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/contests/10/cover-option-a.png": {
+		"ft": 32768,
+		"iS": 1984323,
+		"oA": 0,
+		"oAP": "/img/contests/10/cover-option-a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/contests/10/cover-option-a.png~bak.png": {
+		"ft": 32768,
+		"iS": 2090434,
+		"oA": 0,
+		"oAP": "/img/contests/10/cover-option-a.png~bak.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/contests/12/cover-option-a.png": {
 		"ft": 32768,
 		"iS": 3219727,
