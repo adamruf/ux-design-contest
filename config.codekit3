@@ -423,6 +423,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/contests/12/cover-option-a.png": {
+		"ft": 32768,
+		"iS": 3219727,
+		"oA": 0,
+		"oAP": "/img/contests/12/cover-option-a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/contests/15/uxdc-15-event-01.png": {
 		"ft": 32768,
 		"iS": 375139,
@@ -702,8 +715,8 @@
 		"oA": 0,
 		"oAP": "/img/contests/7/cover-option-a.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -722,14 +735,14 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/img/contests/9/cover-option-a.png~bak.png": {
+	"/img/contests/9/cover-option-a.png": {
 		"ft": 32768,
-		"iS": 3249808,
+		"iS": 2775985,
 		"oA": 0,
-		"oAP": "/img/contests/9/cover-option-a.png~bak.png",
+		"oAP": "/img/contests/9/cover-option-a.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
