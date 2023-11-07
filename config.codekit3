@@ -475,6 +475,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/contests/15/cover-option-a.png": {
+		"ft": 32768,
+		"iS": 1351017,
+		"oA": 0,
+		"oAP": "/img/contests/15/cover-option-a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/contests/15/uxdc-15-event-01.png": {
 		"ft": 32768,
 		"iS": 375139,
