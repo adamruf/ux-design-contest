@@ -80,6 +80,14 @@ h2 {
 .current-contest {
 	@include slab-font;
 	font-weight: bold;
+	margin-bottom: 1.5rem;
+	padding-top: 0;
+}
+
+.contest-title {
+	@include slab-font;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
 	padding-top: 0;
 }
 
