@@ -3,3 +3,4 @@
 *.codekit3
 *staging
 .vscode/settings.json
+config.codekit3
