@@ -383,7 +383,7 @@ figcaption {
 .button {
 	background-color: $blue;
 	border: 0.1rem solid $lighter-gray;
-	border-radius: 4rem;
+	border-radius: 1rem;
 	box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.05);
 	color: $black;
 	display: block;
@@ -418,7 +418,6 @@ figcaption {
 .button--gray {
 	animation: none !important;
 	background-color: #666 !important;
-	border-radius: 4rem !important;
 	color: #FFF !important;
 	font-size: 2rem !important;
 	font-weight: bold !important;
