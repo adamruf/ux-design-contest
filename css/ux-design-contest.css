@@ -121,10 +121,12 @@ a.link-test {
 
 ::selection {
   background: #FFFD7F;
+  color: #312f37;
   /* WebKit/Blink Browsers */ }
 
 ::-moz-selection {
   background: #FFFD7F;
+  color: #312f37;
   /* Gecko Browsers */ }
 
 input,

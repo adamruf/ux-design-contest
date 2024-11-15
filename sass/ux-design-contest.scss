@@ -188,11 +188,13 @@ a.link-test {
 
 ::selection {
 	background: $yellow;
+	color: $black;
 	/* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
 	background: $yellow;
+	color: $black;
 	/* Gecko Browsers */
 }
 
